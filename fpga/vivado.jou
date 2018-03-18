@@ -2,12 +2,35 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Sun Mar 18 16:38:04 2018
-# Process ID: 2344
+# Start of session at: Sun Mar 18 16:57:44 2018
+# Process ID: 6924
 # Current directory: G:/fei/chester0536/kc705/fpga
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6096 G:\fei\chester0536\kc705\fpga\kc705.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3932 G:\fei\chester0536\kc705\fpga\kc705.xpr
 # Log file: G:/fei/chester0536/kc705/fpga/vivado.log
 # Journal file: G:/fei/chester0536/kc705/fpga\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project G:/fei/chester0536/kc705/fpga/kc705.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {tlu_handshake_inst/busy} {clk2M} {tlu_handshake_inst/trigger_clock_en} {tlu_handshake_inst/trigger} {tlu_handshake_inst/trigger_clock} {trigger_cnt} {trigger_cnt_valid} {trigger_valid} }
+set_property NAME.CUSTOM BUSY [get_hw_probes tlu_handshake_inst/busy] 
+set_property NAME.CUSTOM TRIGGER [get_hw_probes tlu_handshake_inst/trigger] 
+set_property NAME.CUSTOM TRIGGER_CLOCK [get_hw_probes tlu_handshake_inst/trigger_clock] 
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
