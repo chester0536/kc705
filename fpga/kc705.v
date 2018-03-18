@@ -25,11 +25,21 @@ module kc705 (
     input  [7:0] PCIE_RX_P,
     output [3:0] GPIO_LED,
     output [7:0] PCIE_TX_N,
-    output [7:0] PCIE_TX_P
+    output [7:0] PCIE_TX_P,
+    //FROM/TO TLU
+//    input TRIGGER_p,
+//    input TRIGGER_n,
+    input TRIGGER_TTL,
+//    input RESET_p,
+//    input RESET_n,
+    output BUSY_p,
+    output BUSY_n,
+    output TRIGGER_CLOCK_p,
+    output TRIGGER_CLOCK_n
 );
    
 
-//Start
+
 
 //**********************************************//
 //*****  System Clock generated from MMCM  *****//
@@ -547,6 +557,27 @@ gen_user_command gen_user_command_ins (
     .RST                    (  rst_command_pre   ),
     .RST_PULSE              (  rst_pulse_pre     )
 );
+
+///////////////////////////TLU Module/////////////////////////
+(*mark_debug = "true"*) wire [15:0] trigger_cnt;
+(*mark_debug = "true"*) wire trigger_valid,trigger_cnt_valid;
+
+    tlu_handshake tlu_handshake_inst (
+        .CLK(clk2M),
+        .RST_SYS(rst2M),
+//        .TRIGGER_p(TRIGGER_p),
+//        .TRIGGER_n(TRIGGER_n),
+        .TRIGGER_TTL(TRIGGER_TTL),
+//        .RESET_p(RESET_p),
+//        .RESET_n(RESET_n),
+        .BUSY_p(BUSY_p),
+        .BUSY_n(BUSY_n),
+        .TRIGGER_CLOCK_p(TRIGGER_CLOCK_p),
+        .TRIGGER_CLOCK_n(TRIGGER_CLOCK_n),
+        .TRIGGER_VALID(trigger_valid),
+        .TRIGGER_CNT_VALID(trigger_cnt_valid),
+        .TRIGGER_CNT(trigger_cnt)
+        );  
      
 endmodule   
 
