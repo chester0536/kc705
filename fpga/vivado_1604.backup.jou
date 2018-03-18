@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 17:03:14 2018
+# Process ID: 1604
+# Current directory: G:/fei/chester0536/kc705/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4052 G:\fei\chester0536\kc705\fpga\kc705.xpr
+# Log file: G:/fei/chester0536/kc705/fpga/vivado.log
+# Journal file: G:/fei/chester0536/kc705/fpga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/fei/chester0536/kc705/fpga/kc705.xpr
+open_run synth_1 -name synth_1

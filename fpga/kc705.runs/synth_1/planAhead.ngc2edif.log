@@ -76,5 +76,5 @@ WARNING:NetListWriters:306 - Signal bus pcie_recv_dma_ins/rd_byte_offset_d[7 :
    missing bus signals.
   finished :Prep
 Writing EDIF netlist file xillybus_core.edif ...
-ngc2edif: Total memory usage is 97504 kilobytes
+ngc2edif: Total memory usage is 98016 kilobytes
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="coregen_clk2M_crossing_fifo_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521358498">
-  <File Type="RDS-PROPCONSTRS" Name="coregen_clk2M_crossing_fifo_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="coregen_clk2M_crossing_fifo.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="coregen_clk2M_crossing_fifo_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="coregen_clk2M_crossing_fifo.vds"/>
   <File Type="RDS-UTIL" Name="coregen_clk2M_crossing_fifo_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="coregen_clk2M_crossing_fifo_utilization_synth.pb"/>
@@ -35,9 +35,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

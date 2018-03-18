@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 17:03:14 2018
+# Process ID: 1604
+# Current directory: G:/fei/chester0536/kc705/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4052 G:\fei\chester0536\kc705\fpga\kc705.xpr
+# Log file: G:/fei/chester0536/kc705/fpga/vivado.log
+# Journal file: G:/fei/chester0536/kc705/fpga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/fei/chester0536/kc705/fpga/kc705.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_testbench.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/xilinx2017.2/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 920.965 ; gain = 118.738
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k325tffg900-2
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.dcp' for cell 'clk_crossing_fifo32_ins'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp' for cell 'fifo_8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.dcp' for cell 'sysclk_ins_test'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem1/coregen_user_mem8.dcp' for cell 'user_mem8_inst'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem2/coregen_buffer_mem16.dcp' for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem3/coregen_mem8_chipaddr.dcp' for cell 'set_chip_addr_ins/clk_crossing_mem8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp' for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+INFO: [Netlist 29-17] Analyzing 910 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'CPS_ReadOut/CNV' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf:34615]
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo.xdc will not be read for any cell of this module.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.750 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.750 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.750 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.750 ; gain = 0.000
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+INFO: [Timing 38-2] Deriving generated clocks [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+get_clocks: Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1807.625 ; gain = 550.617
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo_clocks.xdc will not be read for any cell of this module.
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 113 instances were transformed.
+  OBUFDS => OBUFDS: 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 19 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 16 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 58 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+open_run: Time (s): cpu = 00:01:24 ; elapsed = 00:01:08 . Memory (MB): peak = 1852.102 ; gain = 921.086
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 18 17:09:37 2018...

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="pcie_k7_vivado_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521357604">
-  <File Type="RDS-PROPCONSTRS" Name="pcie_k7_vivado_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="pcie_k7_vivado.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="pcie_k7_vivado_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="pcie_k7_vivado.vds"/>
   <File Type="RDS-UTIL" Name="pcie_k7_vivado_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="pcie_k7_vivado_utilization_synth.pb"/>
@@ -35,9 +35,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
