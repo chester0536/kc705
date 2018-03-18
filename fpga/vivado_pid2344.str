@@ -95,3 +95,10 @@ dismissDialog("Open Project"); // bs:g (cg:JFrame)
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
 // TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (kc705.v) elapsed time: 0.2s
+// Elapsed time: 727 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705 (kc705.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705 (kc705.v), sysclk_ins_test : coregen_sysclk (coregen_sysclk.xci)]", 2, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "kc705.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // y:aJ
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705 (kc705.v), tlu_handshake_inst : tlu_handshake (tlu_handshake.v)]", 22, false); // B:i (D:JPanel, cg:JFrame)
