@@ -1,0 +1,1754 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 15:39:16 2018
+# Process ID: 6316
+# Current directory: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1
+# Command line: vivado.exe -log kc705.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kc705.tcl
+# Log file: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/kc705.vds
+# Journal file: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source kc705.tcl -notrace
+Command: synth_design -top kc705 -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t-ffg900'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t-ffg900'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7060 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 391.902 ; gain = 76.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'kc705' [G:/fei/chester0536/kc705/fpga/kc705.v:1]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:48]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:49]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:50]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:61]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:62]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:63]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:64]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:65]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:66]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:101]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:102]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:124]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:127]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:128]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:213]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:219]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:389]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:391]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:393]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:394]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:418]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:419]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:502]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:562]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/kc705.v:563]
+INFO: [Synth 8-638] synthesizing module 'coregen_sysclk' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_sysclk_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'coregen_sysclk' (1#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_sysclk_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'state_control' [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:50]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:79]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:96]
+INFO: [Synth 8-256] done synthesizing module 'state_control' (2#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:1]
+INFO: [Synth 8-638] synthesizing module 'gen_user_clock' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:1]
+INFO: [Synth 8-256] done synthesizing module 'gen_user_clock' (3#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:1]
+INFO: [Synth 8-638] synthesizing module 'CPS_ReadOut_TOP' [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP_stub.v:11]
+INFO: [Synth 8-256] done synthesizing module 'CPS_ReadOut_TOP' (4#1) [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP_stub.v:11]
+INFO: [Synth 8-638] synthesizing module 'xillybus' [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:3]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS_GTE2' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14622]
+	Parameter CLKCM_CFG bound to: TRUE - type: string 
+	Parameter CLKRCV_TRST bound to: TRUE - type: string 
+	Parameter CLKSWING_CFG bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS_GTE2' (5#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14622]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_8x' [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_8x.v:4]
+	Parameter PCIE_EXT_CLK bound to: TRUE - type: string 
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/pcie_k7_vivado_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado' (6#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/pcie_k7_vivado_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_8x' (7#1) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_8x.v:4]
+WARNING: [Synth 8-350] instance 'pcie' of module 'pcie_k7_8x' requires 167 connections, but only 94 given [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_8x_pipe_clock' [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_8x_pipe_clock.v:3]
+	Parameter PCIE_ASYNC_EN bound to: FALSE - type: string 
+	Parameter PCIE_TXBUF_EN bound to: FALSE - type: string 
+	Parameter PCIE_CLK_SHARING_EN bound to: FALSE - type: string 
+	Parameter PCIE_LANE bound to: 6'b001000 
+	Parameter PCIE_LINK_SPEED bound to: 3 - type: integer 
+	Parameter PCIE_REFCLK_FREQ bound to: 0 - type: integer 
+	Parameter PCIE_USERCLK1_FREQ bound to: 4 - type: integer 
+	Parameter PCIE_USERCLK2_FREQ bound to: 4 - type: integer 
+	Parameter PCIE_OOBCLK_MODE bound to: 1 - type: integer 
+	Parameter PCIE_DEBUG_MODE bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_clock' [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:67]
+	Parameter PCIE_ASYNC_EN bound to: FALSE - type: string 
+	Parameter PCIE_TXBUF_EN bound to: FALSE - type: string 
+	Parameter PCIE_CLK_SHARING_EN bound to: FALSE - type: string 
+	Parameter PCIE_LANE bound to: 6'b001000 
+	Parameter PCIE_LINK_SPEED bound to: 3 - type: integer 
+	Parameter PCIE_REFCLK_FREQ bound to: 0 - type: integer 
+	Parameter PCIE_USERCLK1_FREQ bound to: 4 - type: integer 
+	Parameter PCIE_USERCLK2_FREQ bound to: 4 - type: integer 
+	Parameter PCIE_OOBCLK_MODE bound to: 1 - type: integer 
+	Parameter PCIE_DEBUG_MODE bound to: 0 - type: integer 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKFBOUT_MULT_F bound to: 10 - type: integer 
+	Parameter CLKIN1_PERIOD bound to: 10 - type: integer 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8 - type: integer 
+	Parameter CLKOUT1_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT2_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT3_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT4_DIVIDE bound to: 20 - type: integer 
+	Parameter PCIE_GEN1_MODE bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:137]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:138]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:139]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:141]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:142]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:143]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:154]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (8#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BUFGCTRL' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+	Parameter INIT_OUT bound to: 0 - type: integer 
+	Parameter IS_CE0_INVERTED bound to: 1'b0 
+	Parameter IS_CE1_INVERTED bound to: 1'b0 
+	Parameter IS_I0_INVERTED bound to: 1'b0 
+	Parameter IS_I1_INVERTED bound to: 1'b0 
+	Parameter IS_IGNORE0_INVERTED bound to: 1'b0 
+	Parameter IS_IGNORE1_INVERTED bound to: 1'b0 
+	Parameter IS_S0_INVERTED bound to: 1'b0 
+	Parameter IS_S1_INVERTED bound to: 1'b0 
+	Parameter PRESELECT_I0 bound to: FALSE - type: string 
+	Parameter PRESELECT_I1 bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCTRL' (9#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (10#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+WARNING: [Synth 8-6014] Unused sequential element pclk_sel_slave_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:589]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_clock' (11#1) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_8x_pipe_clock' (12#1) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_8x_pipe_clock.v:3]
+WARNING: [Synth 8-350] instance 'pipe_clock' of module 'pcie_k7_8x_pipe_clock' requires 16 connections, but only 14 given [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+INFO: [Synth 8-638] synthesizing module 'xillybus_core' [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus_core.v:1]
+INFO: [Synth 8-256] done synthesizing module 'xillybus_core' (13#1) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus_core.v:1]
+WARNING: [Synth 8-3848] Net sys_clk in module/entity xillybus does not have driver. [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:237]
+INFO: [Synth 8-256] done synthesizing module 'xillybus' (14#1) [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:3]
+INFO: [Synth 8-638] synthesizing module 'fifo_8x2048' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/fifo_8x2048_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_8x2048' (15#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/fifo_8x2048_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'coregen_user_mem8' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_user_mem8_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'coregen_user_mem8' (16#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_user_mem8_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'gen_simple_data' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:1]
+INFO: [Synth 8-256] done synthesizing module 'gen_simple_data' (17#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:1]
+INFO: [Synth 8-638] synthesizing module 'recieve_adc_packet' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:1]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:38]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:39]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:40]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:140]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:141]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:142]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:143]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:154]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:155]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:249]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:250]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:251]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:252]
+INFO: [Synth 8-638] synthesizing module 'regenerate_ctrl_signal' [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:1]
+INFO: [Synth 8-256] done synthesizing module 'regenerate_ctrl_signal' (18#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:1]
+INFO: [Synth 8-638] synthesizing module 'rec_sample_data' [G:/fei/chester0536/kc705/fpga/HDL/user_module/rec_sample_data.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/rec_sample_data.v:13]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/rec_sample_data.v:27]
+INFO: [Synth 8-256] done synthesizing module 'rec_sample_data' (19#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/rec_sample_data.v:1]
+INFO: [Synth 8-638] synthesizing module 'set_data' [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:1]
+INFO: [Synth 8-638] synthesizing module 'delay_ff' [G:/fei/chester0536/kc705/fpga/HDL/user_module/delay_ff.v:1]
+	Parameter DELAY_COUNT bound to: 48 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'd_ff' [G:/fei/chester0536/kc705/fpga/HDL/user_module/d_ff.v:1]
+INFO: [Synth 8-256] done synthesizing module 'd_ff' (20#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/d_ff.v:1]
+INFO: [Synth 8-256] done synthesizing module 'delay_ff' (21#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/delay_ff.v:1]
+INFO: [Synth 8-256] done synthesizing module 'set_data' (22#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:1]
+INFO: [Synth 8-638] synthesizing module 'coregen_buffer_mem16' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_buffer_mem16_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'coregen_buffer_mem16' (23#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_buffer_mem16_stub.v:6]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst0' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:305]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst17' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:307]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst1' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:310]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst2' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:312]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst3' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:314]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst4' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:316]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst5' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:318]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst6' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:320]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst7' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:322]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst8' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:324]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst9' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:327]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst10' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:329]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst11' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:331]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst12' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:333]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst13' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:335]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst14' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:337]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst15' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:339]
+WARNING: [Synth 8-350] instance 'buffer_mem16_inst16' of module 'coregen_buffer_mem16' requires 10 connections, but only 9 given [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:341]
+INFO: [Synth 8-638] synthesizing module 'data_selector' [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:111]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:112]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:197]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:198]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:200]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:201]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:202]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:203]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:204]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:205]
+INFO: [Synth 8-256] done synthesizing module 'data_selector' (24#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:1]
+INFO: [Synth 8-4471] merging register 'dinb_footer_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:291]
+INFO: [Synth 8-4471] merging register 'dinb01_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+INFO: [Synth 8-4471] merging register 'dinb02_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+INFO: [Synth 8-4471] merging register 'dinb03_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+INFO: [Synth 8-4471] merging register 'dinb04_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+INFO: [Synth 8-4471] merging register 'dinb05_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+INFO: [Synth 8-4471] merging register 'dinb06_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+INFO: [Synth 8-4471] merging register 'dinb07_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+INFO: [Synth 8-4471] merging register 'dinb08_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+INFO: [Synth 8-4471] merging register 'dinb09_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+INFO: [Synth 8-4471] merging register 'dinb10_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+INFO: [Synth 8-4471] merging register 'dinb11_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+INFO: [Synth 8-4471] merging register 'dinb12_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+INFO: [Synth 8-4471] merging register 'dinb13_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+INFO: [Synth 8-4471] merging register 'dinb14_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+INFO: [Synth 8-4471] merging register 'dinb15_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+INFO: [Synth 8-4471] merging register 'dinb16_reg[15:0]' into 'dinb_header_reg[15:0]' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+INFO: [Synth 8-4471] merging register 'web_footer_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:297]
+INFO: [Synth 8-4471] merging register 'web01_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+INFO: [Synth 8-4471] merging register 'web02_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+INFO: [Synth 8-4471] merging register 'web03_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+INFO: [Synth 8-4471] merging register 'web04_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+INFO: [Synth 8-4471] merging register 'web05_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+INFO: [Synth 8-4471] merging register 'web06_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+INFO: [Synth 8-4471] merging register 'web07_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+INFO: [Synth 8-4471] merging register 'web08_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+INFO: [Synth 8-4471] merging register 'web09_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+INFO: [Synth 8-4471] merging register 'web10_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+INFO: [Synth 8-4471] merging register 'web11_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+INFO: [Synth 8-4471] merging register 'web12_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+INFO: [Synth 8-4471] merging register 'web13_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+INFO: [Synth 8-4471] merging register 'web14_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+INFO: [Synth 8-4471] merging register 'web15_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+INFO: [Synth 8-4471] merging register 'web16_reg' into 'web_header_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+WARNING: [Synth 8-6014] Unused sequential element dinb_footer_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:291]
+WARNING: [Synth 8-6014] Unused sequential element dinb01_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+WARNING: [Synth 8-6014] Unused sequential element dinb02_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+WARNING: [Synth 8-6014] Unused sequential element dinb03_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+WARNING: [Synth 8-6014] Unused sequential element dinb04_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:292]
+WARNING: [Synth 8-6014] Unused sequential element dinb05_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+WARNING: [Synth 8-6014] Unused sequential element dinb06_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+WARNING: [Synth 8-6014] Unused sequential element dinb07_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+WARNING: [Synth 8-6014] Unused sequential element dinb08_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:293]
+WARNING: [Synth 8-6014] Unused sequential element dinb09_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+WARNING: [Synth 8-6014] Unused sequential element dinb10_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+WARNING: [Synth 8-6014] Unused sequential element dinb11_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+WARNING: [Synth 8-6014] Unused sequential element dinb12_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:294]
+WARNING: [Synth 8-6014] Unused sequential element dinb13_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+WARNING: [Synth 8-6014] Unused sequential element dinb14_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+WARNING: [Synth 8-6014] Unused sequential element dinb15_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+WARNING: [Synth 8-6014] Unused sequential element dinb16_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:295]
+WARNING: [Synth 8-6014] Unused sequential element web_footer_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:297]
+WARNING: [Synth 8-6014] Unused sequential element web01_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+WARNING: [Synth 8-6014] Unused sequential element web02_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+WARNING: [Synth 8-6014] Unused sequential element web03_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+WARNING: [Synth 8-6014] Unused sequential element web04_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:298]
+WARNING: [Synth 8-6014] Unused sequential element web05_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+WARNING: [Synth 8-6014] Unused sequential element web06_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+WARNING: [Synth 8-6014] Unused sequential element web07_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+WARNING: [Synth 8-6014] Unused sequential element web08_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:299]
+WARNING: [Synth 8-6014] Unused sequential element web09_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+WARNING: [Synth 8-6014] Unused sequential element web10_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+WARNING: [Synth 8-6014] Unused sequential element web11_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+WARNING: [Synth 8-6014] Unused sequential element web12_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:300]
+WARNING: [Synth 8-6014] Unused sequential element web13_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+WARNING: [Synth 8-6014] Unused sequential element web14_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+WARNING: [Synth 8-6014] Unused sequential element web15_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+WARNING: [Synth 8-6014] Unused sequential element web16_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:301]
+INFO: [Synth 8-256] done synthesizing module 'recieve_adc_packet' (25#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/recieve_adc_packet.v:1]
+INFO: [Synth 8-638] synthesizing module 'coregen_clk_crossing_fifo32' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_clk_crossing_fifo32_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'coregen_clk_crossing_fifo32' (26#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_clk_crossing_fifo32_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'set_chip_addr' [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:12]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:13]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:14]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:33]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:34]
+INFO: [Synth 8-638] synthesizing module 'coregen_mem8_chipaddr' [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_mem8_chipaddr_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'coregen_mem8_chipaddr' (27#1) [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/realtime/coregen_mem8_chipaddr_stub.v:6]
+INFO: [Synth 8-4471] merging register 'rd_addr_r_reg' into 'wr_addr_r_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:30]
+WARNING: [Synth 8-6014] Unused sequential element rd_addr_r_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:30]
+INFO: [Synth 8-256] done synthesizing module 'set_chip_addr' (28#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:1]
+INFO: [Synth 8-638] synthesizing module 'gen_user_command' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:1]
+WARNING: [Synth 8-6014] Unused sequential element mem8_reg3_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:129]
+INFO: [Synth 8-256] done synthesizing module 'gen_user_command' (29#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:1]
+INFO: [Synth 8-638] synthesizing module 'tlu_handshake' [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:23]
+	Parameter ST_TLU_IDLE bound to: 3'b000 
+	Parameter ST_TLU_TRIGGER bound to: 3'b001 
+	Parameter ST_TLU_GAP bound to: 3'b010 
+	Parameter ST_TLU_CNT bound to: 3'b011 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:40]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:41]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:42]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14470]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: LVTTL - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (30#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14470]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22286]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (31#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22286]
+INFO: [Synth 8-155] case statement is not full and has no default [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:104]
+INFO: [Synth 8-256] done synthesizing module 'tlu_handshake' (32#1) [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:23]
+WARNING: [Synth 8-3848] Net user_r_read_32_eof in module/entity kc705 does not have driver. [G:/fei/chester0536/kc705/fpga/kc705.v:230]
+WARNING: [Synth 8-3848] Net user_w_write_32_full in module/entity kc705 does not have driver. [G:/fei/chester0536/kc705/fpga/kc705.v:242]
+INFO: [Synth 8-256] done synthesizing module 'kc705' (33#1) [G:/fei/chester0536/kc705/fpga/kc705.v:1]
+WARNING: [Synth 8-3331] design set_chip_addr has unconnected port RST
+WARNING: [Synth 8-3331] design rec_sample_data has unconnected port RST
+WARNING: [Synth 8-3331] design regenerate_ctrl_signal has unconnected port CLK2M_IN
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port CLK2M_DIV
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port RST2M_IN
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port SET_PARAM
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_CLK
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[7]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[6]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[5]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[4]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[3]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[2]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[1]
+WARNING: [Synth 8-3331] design pcie_k7_vivado_pipe_clock has unconnected port CLK_RXOUTCLK_IN[0]
+WARNING: [Synth 8-3331] design state_control has unconnected port INIT
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 438.992 ; gain = 123.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin pcie:rx_np_req to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_pm_send_pme_to to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[7] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[6] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[5] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[4] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[3] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[2] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[1] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_bus_number[0] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_device_number[4] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_device_number[3] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_device_number[2] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_device_number[1] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_device_number[0] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_function_number[2] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_function_number[1] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:cfg_ds_function_number[0] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:pl_transmit_hot_rst to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pcie:pl_downstream_deemph_source to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:107]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_CLK to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[7] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[6] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[5] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[4] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[3] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[2] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[1] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin pipe_clock:CLK_PCLK_SEL_SLAVE[0] to constant 0 [G:/fei/chester0536/kc705/fpga/HDL/xillybus/verilog/src/xillybus.v:233]
+WARNING: [Synth 8-3295] tying undriven pin xillybus_ins:user_r_read_32_eof to constant 0 [G:/fei/chester0536/kc705/fpga/kc705.v:252]
+WARNING: [Synth 8-3295] tying undriven pin xillybus_ins:user_w_write_32_full to constant 0 [G:/fei/chester0536/kc705/fpga/kc705.v:252]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 438.992 ; gain = 123.430
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp17/fifo_8x2048_in_context.xdc] for cell 'fifo_8'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp17/fifo_8x2048_in_context.xdc] for cell 'fifo_8'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp19/coregen_sysclk_in_context.xdc] for cell 'sysclk_ins_test'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp19/coregen_sysclk_in_context.xdc] for cell 'sysclk_ins_test'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp21/pcie_k7_vivado_in_context.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp21/pcie_k7_vivado_in_context.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp23/coregen_user_mem8_in_context.xdc] for cell 'user_mem8_inst'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp23/coregen_user_mem8_in_context.xdc] for cell 'user_mem8_inst'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst17'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst17'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst1'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst1'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst2'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst2'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst3'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst3'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst4'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst4'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst5'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst5'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst6'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst6'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst7'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst7'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst8'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst8'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst9'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst9'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst10'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst10'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst11'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst11'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst12'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst12'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst13'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst13'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst14'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst14'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst15'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst15'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst16'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp25/coregen_buffer_mem16_in_context.xdc] for cell 'rec_adc_packet_ins/buffer_mem16_inst16'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp27/coregen_mem8_chipaddr_in_context.xdc] for cell 'set_chip_addr_ins/clk_crossing_mem8'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp27/coregen_mem8_chipaddr_in_context.xdc] for cell 'set_chip_addr_ins/clk_crossing_mem8'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp29/coregen_clk_crossing_fifo32_in_context.xdc] for cell 'clk_crossing_fifo32_ins'
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/.Xil/Vivado-6316-dell-PC/dcp29/coregen_clk_crossing_fifo32_in_context.xdc] for cell 'clk_crossing_fifo32_ins'
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kc705_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/kc705_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kc705_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/kc705_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 819.316 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'clk_crossing_fifo32_ins' at clock pin 'rd_clk' is different from the actual clock period '4.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'fifo_8' at clock pin 'clk' is different from the actual clock period '4.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'user_mem8_inst' at clock pin 'clka' is different from the actual clock period '4.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst0' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst1' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst10' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst11' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst12' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst13' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst14' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst15' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst16' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst17' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst2' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst3' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst4' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst5' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst6' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst7' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst8' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rec_adc_packet_ins/buffer_mem16_inst9' at clock pin 'clkb' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'set_chip_addr_ins/clk_crossing_mem8' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '8.000' specified during out-of-context synthesis of instance 'xillybus_ins/pcie/pcie_k7_vivado' at clock pin 'pipe_oobclk_in' is different from the actual clock period '4.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/S00_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 6).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/\pclk_i1_bufgctrl.pclk_i1 . (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 6).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel1_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel1_i__0. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel2_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_i__0. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_i__1. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg1_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_i. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pipe_clock/pipe_clock/pclk_sel_slave_reg2_reg. (constraint file  G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc, line 7).
+Applied set_property DONT_TOUCH = true for clk_crossing_fifo32_ins. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rec_adc_packet_ins/buffer_mem16_inst9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for set_chip_addr_ins/clk_crossing_mem8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for sysclk_ins_test. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for user_mem8_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for xillybus_ins/pcie/pcie_k7_vivado. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "fifo_write_veto_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element veto_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:55]
+INFO: [Synth 8-5546] ROM "clk_2M" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_4M" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element rst_cnt_2M_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:45]
+WARNING: [Synth 8-6014] Unused sequential element rst_cnt_4M_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:94]
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sr_out_reg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+INFO: [Synth 8-5546] ROM "clk_2M" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rst_2M" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element int_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:24]
+WARNING: [Synth 8-6014] Unused sequential element rst_int_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:59]
+WARNING: [Synth 8-6014] Unused sequential element cnt_cnv_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:96]
+INFO: [Synth 8-5546] ROM "event_type" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "nevt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "addr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "first_row_flag_reg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element nevt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:44]
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+INFO: [Synth 8-5546] ROM "ad_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wr_en_pre" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wr_en_pre" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element event_number_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/data_selector.v:140]
+INFO: [Synth 8-4471] merging register 'wr_en_overflow_reg' into 'mem_access_wren_overflow_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:497]
+INFO: [Synth 8-4471] merging register 'wr_en_rst_reg' into 'mem_access_wren_rst_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:226]
+INFO: [Synth 8-4471] merging register 'wr_en_start_reg' into 'mem_access_wren_start_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:393]
+INFO: [Synth 8-4471] merging register 'wr_en_stop_reg' into 'mem_access_wren_stop_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:470]
+INFO: [Synth 8-4471] merging register 'wr_en_init_reg' into 'mem_access_wren_init_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:314]
+INFO: [Synth 8-4471] merging register 'wr_en_reg' into 'mem_access_wren_reg' [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:522]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_rst_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:226]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_init_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:314]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_start_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:393]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_stop_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:470]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_overflow_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:497]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:522]
+INFO: [Synth 8-5587] ROM size for "mem_address_rden" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "cmos_addr_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_start_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "row_end_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "col_start_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "col_end_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gen_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gen_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rst_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_access_wren_rst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_address_wren_rst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gen_init" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "init_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gen_start" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "start_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_access_wren_start" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gen_stop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "stop_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_access_wren_stop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_address_wren_stop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_access_wren_overflow" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_access_wren" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element rst_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:191]
+WARNING: [Synth 8-6014] Unused sequential element init_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:278]
+WARNING: [Synth 8-6014] Unused sequential element start_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:358]
+WARNING: [Synth 8-6014] Unused sequential element stop_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_command.v:435]
+WARNING: [Synth 8-6014] Unused sequential element cnt_16_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:125]
+WARNING: [Synth 8-6014] Unused sequential element trigger_cnt_tmp_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:155]
+WARNING: [Synth 8-327] inferring latch for variable 'TRIGGER_CNT' [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:164]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 9     
+	   2 Input      6 Bit       Adders := 67    
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 20    
++---Registers : 
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 1069  
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 24    
+	                6 Bit    Registers := 111   
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 22    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 19    
+	                1 Bit    Registers := 155   
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 36    
+	   4 Input     16 Bit        Muxes := 18    
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      6 Bit        Muxes := 51    
+	   4 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 12    
+	   3 Input      2 Bit        Muxes := 19    
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 21    
+	   2 Input      1 Bit        Muxes := 178   
+	   3 Input      1 Bit        Muxes := 41    
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module kc705 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module state_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+Module gen_user_clock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+Module pcie_k7_vivado_pipe_clock 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module gen_simple_data 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module regenerate_ctrl_signal 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input      6 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module rec_sample_data 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
+Module d_ff 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module set_data 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 6     
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module data_selector 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 63    
+	                6 Bit    Registers := 8     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+Module recieve_adc_packet 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module set_chip_addr 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
+Module gen_user_command 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 13    
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 38    
+	   5 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+Module tlu_handshake 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "fifo_write_veto_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element veto_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/state_control.v:55]
+INFO: [Synth 8-5546] ROM "clk_2M" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_4M" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element rst_cnt_2M_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:45]
+WARNING: [Synth 8-6014] Unused sequential element rst_cnt_4M_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:94]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+INFO: [Synth 8-5546] ROM "rst_2M" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element int_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:24]
+WARNING: [Synth 8-6014] Unused sequential element rst_int_cnt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:59]
+WARNING: [Synth 8-6014] Unused sequential element cnt_cnv_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/regen_ctrl_sig.v:96]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:27]
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+WARNING: [Synth 8-6014] Unused sequential element nevt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:44]
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+WARNING: [Synth 8-6014] Unused sequential element nevt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:44]
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+WARNING: [Synth 8-6014] Unused sequential element nevt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:44]
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+WARNING: [Synth 8-6014] Unused sequential element nevt_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:44]
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element addr_reg was removed.  [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_data.v:83]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "header" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "init_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "start_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "stop_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rst_reg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design set_chip_addr has unconnected port RST
+WARNING: [Synth 8-3331] design rec_sample_data has unconnected port RST
+WARNING: [Synth 8-3331] design regenerate_ctrl_signal has unconnected port CLK2M_IN
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port CLK2M_DIV
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port RST2M_IN
+WARNING: [Synth 8-3331] design recieve_adc_packet has unconnected port SET_PARAM
+WARNING: [Synth 8-3331] design state_control has unconnected port INIT
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[0]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[1]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[2]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[3]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[4]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[5]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[6]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[7]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[8]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[9]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[10]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[11]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[12]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[13]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[14]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3886] merging instance 'rec_adc_packet_ins/dinb_header_reg[15]' (FD) to 'rec_adc_packet_ins/web_header_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/web_header_reg)
+WARNING: [Synth 8-3332] Sequential element (web_header_reg) is unused and will be removed from module recieve_adc_packet.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (set_data:/\event_type_reg[0] )
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[0]' (FD) to 'set_data:/footer_reg[0]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[1]' (FD) to 'set_data:/footer_reg[1]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[2]' (FD) to 'set_data:/footer_reg[2]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[3]' (FD) to 'set_data:/footer_reg[3]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[4]' (FDR) to 'set_data:/footer_reg[4]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[5]' (FDR) to 'set_data:/footer_reg[5]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[6]' (FDR) to 'set_data:/footer_reg[6]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[7]' (FDR) to 'set_data:/footer_reg[7]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[8]' (FDR) to 'set_data:/header_reg[8]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[9]' (FDR) to 'set_data:/header_reg[9]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[10]' (FD) to 'set_data:/header_reg[10]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[11]' (FD) to 'set_data:/header_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (set_data:/\footer_reg[12] )
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[12]' (FDS) to 'set_data:/footer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[13]' (FDS) to 'set_data:/footer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[13]' (FDS) to 'set_data:/footer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[14]' (FDS) to 'set_data:/footer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'set_data:/header_reg[14]' (FDS) to 'set_data:/footer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'set_data:/footer_reg[15]' (FDS) to 'set_data:/header_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (set_data:/\header_reg[10] )
+WARNING: [Synth 8-3332] Sequential element (event_type_reg[0]) is unused and will be removed from module set_data.
+WARNING: [Synth 8-3332] Sequential element (footer_reg[12]) is unused and will be removed from module set_data.
+WARNING: [Synth 8-3332] Sequential element (header_reg[10]) is unused and will be removed from module set_data.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[28] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[29] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d1_event_footer_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[28] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[29] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d2_event_footer_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[28] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[29] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (rec_adc_packet_ins/data_selector_inst/\d3_event_footer_reg[31] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d2_d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d3_d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d4_d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[8]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[7]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[6]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[5]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[4]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[3]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[2]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[1]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d5_d_footer_reg[0]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[31]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[30]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[29]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[28]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[27]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[26]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[25]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[24]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[23]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[22]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[21]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[20]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[19]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[18]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[17]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[16]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[15]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[14]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[13]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[12]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[11]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[10]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[9]) is unused and will be removed from module data_selector.
+WARNING: [Synth 8-3332] Sequential element (d1_event_footer_reg[8]) is unused and will be removed from module data_selector.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/rst_on_reg' (FDSE) to 'gen_user_command_ins/rst_reg_reg__0'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/stop_on_reg' (FDSE) to 'gen_user_command_ins/stop_reg_reg'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/start_on_reg' (FDSE) to 'gen_user_command_ins/start_reg_reg'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/init_on_reg' (FDSE) to 'gen_user_command_ins/init_reg_reg'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_access_wren_overflow_reg' (FDE) to 'gen_user_command_ins/mem_address_wren_overflow_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_stop_reg[0]' (FDRE) to 'gen_user_command_ins/mem_address_wren_stop_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_init_reg[0]' (FDRE) to 'gen_user_command_ins/mem_address_wren_init_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_stop_reg[1]' (FDRE) to 'gen_user_command_ins/mem_address_wren_stop_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_rst_reg[1]' (FDRE) to 'gen_user_command_ins/mem_address_wren_rst_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_init_reg[2]' (FDRE) to 'gen_user_command_ins/mem_address_wren_init_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_rst_reg[2]' (FDRE) to 'gen_user_command_ins/mem_address_wren_rst_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_stop_reg[3]' (FDRE) to 'gen_user_command_ins/mem_address_wren_stop_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_init_reg[3]' (FDRE) to 'gen_user_command_ins/mem_address_wren_init_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem_address_wren_rst_reg[3]' (FDRE) to 'gen_user_command_ins/mem_address_wren_rst_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[0]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[0]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[0]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[0]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[1]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[1]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[1]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[1]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[2]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[2]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[2]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[2]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[3]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[3]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[3]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[3]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[4]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[4]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[4]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[4]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[5]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[5]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[5]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[5]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_stop_reg[6]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_stop_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_start_reg[6]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_start_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_init_reg[6]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_init_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_user_command_ins/mem8_out_reg_rst_reg[6]' (FDRE) to 'gen_user_command_ins/mem8_out_reg_rst_reg[7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sysclk_ins_test/clk_out1' to pin 'sysclk_ins_test/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'sysclk_ins_test/clk_in1' to 'set_chip_addr_ins/chip_address_out_dff_reg[0]/C'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sysclk_ins_test/clk_out2' to pin 'sysclk_ins_test/bbstub_clk_out2/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'sysclk_ins_test/clk_in1' to 'set_chip_addr_ins/chip_address_out_dff_reg[0]/C'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'sysclk_ins_test/clk_out3' to pin 'sysclk_ins_test/bbstub_clk_out3/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'sysclk_ins_test/clk_in1' to 'set_chip_addr_ins/chip_address_out_dff_reg[0]/C'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'xillybus_ins/pcie/pcie_k7_vivado/pipe_txoutclk_out' to pin 'xillybus_ins/pcie/pcie_k7_vivado/bbstub_pipe_txoutclk_out/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'xillybus_ins/pcie/pcie_k7_vivado/user_clk_out' to pin 'xillybus_ins/pcie/pcie_k7_vivado/bbstub_user_clk_out/O'
+INFO: [Synth 8-5819] Moved 6 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 819.316 ; gain = 503.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/kc705.v:399]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_user_clock.v:95]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/HDL/user_module/tlu_handshake.v:82]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/HDL/user_module/rec_sample_data.v:22]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/HDL/user_module/gen_simple_data.v:37]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [G:/fei/chester0536/kc705/fpga/HDL/user_module/set_chip_addr.v:70]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:01:29 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:26 ; elapsed = 00:01:29 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name     | RTL Name                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|rec_sample_data | dffdff_srout_cnvclk_reg                              | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|set_data        | delay_data_inst/gen_d_ff[47].u_d_ff/data_reg_reg[15] | 48     | 288   | YES          | NO                 | YES               | 0      | 576     | 
+|data_selector   | d2_d05_reg[15]                                       | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d2_d06_reg[15]                                       | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d2_d07_reg[15]                                       | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d2_d08_reg[15]                                       | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d3_d09_reg[15]                                       | 4      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d3_d10_reg[15]                                       | 4      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d3_d11_reg[15]                                       | 4      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d3_d12_reg[15]                                       | 4      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d4_d13_reg[15]                                       | 5      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d4_d14_reg[15]                                       | 5      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d4_d15_reg[15]                                       | 5      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d4_d16_reg[15]                                       | 5      | 16    | NO           | NO                 | YES               | 16     | 0       | 
+|data_selector   | d5_d_footer_reg[15]                                  | 6      | 4     | NO           | NO                 | YES               | 4      | 0       | 
++----------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |coregen_buffer_mem16        |        18|
+|2     |coregen_mem8_chipaddr       |         1|
+|3     |coregen_sysclk              |         1|
+|4     |CPS_ReadOut_TOP             |         1|
+|5     |fifo_8x2048                 |         1|
+|6     |coregen_user_mem8           |         1|
+|7     |coregen_clk_crossing_fifo32 |         1|
+|8     |xillybus_core               |         1|
+|9     |pcie_k7_vivado              |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |CPS_ReadOut_TOP             |     1|
+|2     |coregen_buffer_mem16        |     1|
+|3     |coregen_buffer_mem16__1     |     1|
+|4     |coregen_buffer_mem16__10    |     1|
+|5     |coregen_buffer_mem16__11    |     1|
+|6     |coregen_buffer_mem16__12    |     1|
+|7     |coregen_buffer_mem16__13    |     1|
+|8     |coregen_buffer_mem16__14    |     1|
+|9     |coregen_buffer_mem16__15    |     1|
+|10    |coregen_buffer_mem16__16    |     1|
+|11    |coregen_buffer_mem16__17    |     1|
+|12    |coregen_buffer_mem16__2     |     1|
+|13    |coregen_buffer_mem16__3     |     1|
+|14    |coregen_buffer_mem16__4     |     1|
+|15    |coregen_buffer_mem16__5     |     1|
+|16    |coregen_buffer_mem16__6     |     1|
+|17    |coregen_buffer_mem16__7     |     1|
+|18    |coregen_buffer_mem16__8     |     1|
+|19    |coregen_buffer_mem16__9     |     1|
+|20    |coregen_clk_crossing_fifo32 |     1|
+|21    |coregen_mem8_chipaddr       |     1|
+|22    |coregen_sysclk              |     1|
+|23    |coregen_user_mem8           |     1|
+|24    |fifo_8x2048                 |     1|
+|25    |pcie_k7_vivado              |     1|
+|26    |xillybus_core               |     1|
+|27    |BUFG                        |     3|
+|28    |BUFGCTRL                    |     1|
+|29    |CARRY4                      |   116|
+|30    |IBUFDS_GTE2                 |     1|
+|31    |LUT1                        |   559|
+|32    |LUT2                        |   444|
+|33    |LUT3                        |   156|
+|34    |LUT4                        |   473|
+|35    |LUT5                        |   130|
+|36    |LUT6                        |   444|
+|37    |MMCME2_ADV                  |     1|
+|38    |SRL16E                      |   212|
+|39    |SRLC32E                     |   576|
+|40    |FDCE                        |     9|
+|41    |FDRE                        |  5302|
+|42    |FDSE                        |     3|
+|43    |FD_1                        |   512|
+|44    |LD                          |    16|
+|45    |IBUF                        |    59|
+|46    |OBUF                        |    34|
+|47    |OBUFDS                      |     2|
++------+----------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------+------+
+|      |Instance                      |Module                    |Cells |
++------+------------------------------+--------------------------+------+
+|1     |top                           |                          | 10619|
+|2     |  state_control_ins           |state_control             |    49|
+|3     |  gen_user_clock_ins          |gen_user_clock            |    89|
+|4     |  top_dummy_data_inst_data01  |gen_simple_data__1        |    51|
+|5     |  top_dummy_data_inst_data02  |gen_simple_data__2        |    51|
+|6     |  top_dummy_data_inst_data03  |gen_simple_data__3        |    51|
+|7     |  top_dummy_data_inst_data04  |gen_simple_data__4        |    51|
+|8     |  top_dummy_data_inst_data05  |gen_simple_data__5        |    51|
+|9     |  top_dummy_data_inst_data06  |gen_simple_data__6        |    51|
+|10    |  top_dummy_data_inst_data07  |gen_simple_data__7        |    51|
+|11    |  top_dummy_data_inst_data08  |gen_simple_data__8        |    51|
+|12    |  rec_adc_packet_ins          |recieve_adc_packet        |  8534|
+|13    |    regen_ctrl_sig            |regenerate_ctrl_signal    |   124|
+|14    |    adc_data_inst1            |rec_sample_data__1        |    69|
+|15    |    adc_data_inst2            |rec_sample_data__2        |    69|
+|16    |    adc_data_inst3            |rec_sample_data__3        |    69|
+|17    |    adc_data_inst4            |rec_sample_data__4        |    69|
+|18    |    adc_data_inst5            |rec_sample_data__5        |    69|
+|19    |    adc_data_inst6            |rec_sample_data__6        |    69|
+|20    |    adc_data_inst7            |rec_sample_data__7        |    69|
+|21    |    adc_data_inst8            |rec_sample_data__8        |    69|
+|22    |    adc_data_inst9            |rec_sample_data__9        |    69|
+|23    |    adc_data_inst10           |rec_sample_data__10       |    69|
+|24    |    adc_data_inst11           |rec_sample_data__11       |    69|
+|25    |    adc_data_inst12           |rec_sample_data__12       |    69|
+|26    |    adc_data_inst13           |rec_sample_data__13       |    69|
+|27    |    adc_data_inst14           |rec_sample_data__14       |    69|
+|28    |    adc_data_inst15           |rec_sample_data__15       |    69|
+|29    |    adc_data_inst16           |rec_sample_data           |    69|
+|30    |    dummy_data_inst0          |gen_simple_data__9        |    51|
+|31    |    dummy_data_inst17         |gen_simple_data__10       |    51|
+|32    |    dummy_data_inst1          |gen_simple_data__11       |    51|
+|33    |    dummy_data_inst2          |gen_simple_data__12       |    51|
+|34    |    dummy_data_inst3          |gen_simple_data__13       |    51|
+|35    |    dummy_data_inst4          |gen_simple_data__14       |    51|
+|36    |    dummy_data_inst5          |gen_simple_data__15       |    51|
+|37    |    dummy_data_inst6          |gen_simple_data__16       |    51|
+|38    |    dummy_data_inst7          |gen_simple_data__17       |    51|
+|39    |    dummy_data_inst8          |gen_simple_data__18       |    51|
+|40    |    dummy_data_inst9          |gen_simple_data__19       |    51|
+|41    |    dummy_data_inst10         |gen_simple_data__20       |    51|
+|42    |    dummy_data_inst11         |gen_simple_data__21       |    51|
+|43    |    dummy_data_inst12         |gen_simple_data__22       |    51|
+|44    |    dummy_data_inst13         |gen_simple_data__23       |    51|
+|45    |    dummy_data_inst14         |gen_simple_data__24       |    51|
+|46    |    dummy_data_inst15         |gen_simple_data__25       |    51|
+|47    |    dummy_data_inst16         |gen_simple_data           |    51|
+|48    |    set_data_inst0            |set_data__1               |   272|
+|49    |      delay_data_inst         |delay_ff_83               |   127|
+|50    |        \gen_d_ff[31].u_d_ff  |d_ff_84                   |    16|
+|51    |        \gen_d_ff[45].u_d_ff  |d_ff_85                   |    16|
+|52    |        \gen_d_ff[46].u_d_ff  |d_ff_86                   |    16|
+|53    |        \gen_d_ff[47].u_d_ff  |d_ff_87                   |    16|
+|54    |    set_data_inst17           |set_data__2               |   272|
+|55    |      delay_data_inst         |delay_ff_78               |   127|
+|56    |        \gen_d_ff[31].u_d_ff  |d_ff_79                   |    16|
+|57    |        \gen_d_ff[45].u_d_ff  |d_ff_80                   |    16|
+|58    |        \gen_d_ff[46].u_d_ff  |d_ff_81                   |    16|
+|59    |        \gen_d_ff[47].u_d_ff  |d_ff_82                   |    16|
+|60    |    set_data_inst01           |set_data__3               |   272|
+|61    |      delay_data_inst         |delay_ff_73               |   127|
+|62    |        \gen_d_ff[31].u_d_ff  |d_ff_74                   |    16|
+|63    |        \gen_d_ff[45].u_d_ff  |d_ff_75                   |    16|
+|64    |        \gen_d_ff[46].u_d_ff  |d_ff_76                   |    16|
+|65    |        \gen_d_ff[47].u_d_ff  |d_ff_77                   |    16|
+|66    |    set_data_inst02           |set_data__4               |   272|
+|67    |      delay_data_inst         |delay_ff_68               |   127|
+|68    |        \gen_d_ff[31].u_d_ff  |d_ff_69                   |    16|
+|69    |        \gen_d_ff[45].u_d_ff  |d_ff_70                   |    16|
+|70    |        \gen_d_ff[46].u_d_ff  |d_ff_71                   |    16|
+|71    |        \gen_d_ff[47].u_d_ff  |d_ff_72                   |    16|
+|72    |    set_data_inst03           |set_data__5               |   272|
+|73    |      delay_data_inst         |delay_ff_63               |   127|
+|74    |        \gen_d_ff[31].u_d_ff  |d_ff_64                   |    16|
+|75    |        \gen_d_ff[45].u_d_ff  |d_ff_65                   |    16|
+|76    |        \gen_d_ff[46].u_d_ff  |d_ff_66                   |    16|
+|77    |        \gen_d_ff[47].u_d_ff  |d_ff_67                   |    16|
+|78    |    set_data_inst04           |set_data__6               |   272|
+|79    |      delay_data_inst         |delay_ff_58               |   127|
+|80    |        \gen_d_ff[31].u_d_ff  |d_ff_59                   |    16|
+|81    |        \gen_d_ff[45].u_d_ff  |d_ff_60                   |    16|
+|82    |        \gen_d_ff[46].u_d_ff  |d_ff_61                   |    16|
+|83    |        \gen_d_ff[47].u_d_ff  |d_ff_62                   |    16|
+|84    |    set_data_inst05           |set_data__7               |   272|
+|85    |      delay_data_inst         |delay_ff_53               |   127|
+|86    |        \gen_d_ff[31].u_d_ff  |d_ff_54                   |    16|
+|87    |        \gen_d_ff[45].u_d_ff  |d_ff_55                   |    16|
+|88    |        \gen_d_ff[46].u_d_ff  |d_ff_56                   |    16|
+|89    |        \gen_d_ff[47].u_d_ff  |d_ff_57                   |    16|
+|90    |    set_data_inst06           |set_data__8               |   272|
+|91    |      delay_data_inst         |delay_ff_48               |   127|
+|92    |        \gen_d_ff[31].u_d_ff  |d_ff_49                   |    16|
+|93    |        \gen_d_ff[45].u_d_ff  |d_ff_50                   |    16|
+|94    |        \gen_d_ff[46].u_d_ff  |d_ff_51                   |    16|
+|95    |        \gen_d_ff[47].u_d_ff  |d_ff_52                   |    16|
+|96    |    set_data_inst07           |set_data__9               |   272|
+|97    |      delay_data_inst         |delay_ff_43               |   127|
+|98    |        \gen_d_ff[31].u_d_ff  |d_ff_44                   |    16|
+|99    |        \gen_d_ff[45].u_d_ff  |d_ff_45                   |    16|
+|100   |        \gen_d_ff[46].u_d_ff  |d_ff_46                   |    16|
+|101   |        \gen_d_ff[47].u_d_ff  |d_ff_47                   |    16|
+|102   |    set_data_inst08           |set_data__10              |   272|
+|103   |      delay_data_inst         |delay_ff_38               |   127|
+|104   |        \gen_d_ff[31].u_d_ff  |d_ff_39                   |    16|
+|105   |        \gen_d_ff[45].u_d_ff  |d_ff_40                   |    16|
+|106   |        \gen_d_ff[46].u_d_ff  |d_ff_41                   |    16|
+|107   |        \gen_d_ff[47].u_d_ff  |d_ff_42                   |    16|
+|108   |    set_data_inst09           |set_data__11              |   272|
+|109   |      delay_data_inst         |delay_ff_33               |   127|
+|110   |        \gen_d_ff[31].u_d_ff  |d_ff_34                   |    16|
+|111   |        \gen_d_ff[45].u_d_ff  |d_ff_35                   |    16|
+|112   |        \gen_d_ff[46].u_d_ff  |d_ff_36                   |    16|
+|113   |        \gen_d_ff[47].u_d_ff  |d_ff_37                   |    16|
+|114   |    set_data_inst10           |set_data__12              |   272|
+|115   |      delay_data_inst         |delay_ff_28               |   127|
+|116   |        \gen_d_ff[31].u_d_ff  |d_ff_29                   |    16|
+|117   |        \gen_d_ff[45].u_d_ff  |d_ff_30                   |    16|
+|118   |        \gen_d_ff[46].u_d_ff  |d_ff_31                   |    16|
+|119   |        \gen_d_ff[47].u_d_ff  |d_ff_32                   |    16|
+|120   |    set_data_inst11           |set_data__13              |   272|
+|121   |      delay_data_inst         |delay_ff_23               |   127|
+|122   |        \gen_d_ff[31].u_d_ff  |d_ff_24                   |    16|
+|123   |        \gen_d_ff[45].u_d_ff  |d_ff_25                   |    16|
+|124   |        \gen_d_ff[46].u_d_ff  |d_ff_26                   |    16|
+|125   |        \gen_d_ff[47].u_d_ff  |d_ff_27                   |    16|
+|126   |    set_data_inst12           |set_data__14              |   272|
+|127   |      delay_data_inst         |delay_ff_18               |   127|
+|128   |        \gen_d_ff[31].u_d_ff  |d_ff_19                   |    16|
+|129   |        \gen_d_ff[45].u_d_ff  |d_ff_20                   |    16|
+|130   |        \gen_d_ff[46].u_d_ff  |d_ff_21                   |    16|
+|131   |        \gen_d_ff[47].u_d_ff  |d_ff_22                   |    16|
+|132   |    set_data_inst13           |set_data__15              |   272|
+|133   |      delay_data_inst         |delay_ff_13               |   127|
+|134   |        \gen_d_ff[31].u_d_ff  |d_ff_14                   |    16|
+|135   |        \gen_d_ff[45].u_d_ff  |d_ff_15                   |    16|
+|136   |        \gen_d_ff[46].u_d_ff  |d_ff_16                   |    16|
+|137   |        \gen_d_ff[47].u_d_ff  |d_ff_17                   |    16|
+|138   |    set_data_inst14           |set_data__16              |   272|
+|139   |      delay_data_inst         |delay_ff_8                |   127|
+|140   |        \gen_d_ff[31].u_d_ff  |d_ff_9                    |    16|
+|141   |        \gen_d_ff[45].u_d_ff  |d_ff_10                   |    16|
+|142   |        \gen_d_ff[46].u_d_ff  |d_ff_11                   |    16|
+|143   |        \gen_d_ff[47].u_d_ff  |d_ff_12                   |    16|
+|144   |    set_data_inst15           |set_data__17              |   272|
+|145   |      delay_data_inst         |delay_ff_3                |   127|
+|146   |        \gen_d_ff[31].u_d_ff  |d_ff_4                    |    16|
+|147   |        \gen_d_ff[45].u_d_ff  |d_ff_5                    |    16|
+|148   |        \gen_d_ff[46].u_d_ff  |d_ff_6                    |    16|
+|149   |        \gen_d_ff[47].u_d_ff  |d_ff_7                    |    16|
+|150   |    set_data_inst16           |set_data                  |   272|
+|151   |      delay_data_inst         |delay_ff                  |   127|
+|152   |        \gen_d_ff[31].u_d_ff  |d_ff                      |    16|
+|153   |        \gen_d_ff[45].u_d_ff  |d_ff_0                    |    16|
+|154   |        \gen_d_ff[46].u_d_ff  |d_ff_1                    |    16|
+|155   |        \gen_d_ff[47].u_d_ff  |d_ff_2                    |    16|
+|156   |    data_selector_inst        |data_selector             |   916|
+|157   |  set_chip_addr_ins           |set_chip_addr             |    37|
+|158   |  gen_user_command_ins        |gen_user_command          |   248|
+|159   |  tlu_handshake_inst          |tlu_handshake             |    98|
+|160   |  xillybus_ins                |xillybus                  |   666|
+|161   |    pcie                      |pcie_k7_8x                |   473|
+|162   |    pipe_clock                |pcie_k7_8x_pipe_clock     |    44|
+|163   |      pipe_clock              |pcie_k7_vivado_pipe_clock |    44|
++------+------------------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 365 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:08 . Memory (MB): peak = 821.203 ; gain = 125.316
+Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 821.203 ; gain = 505.641
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf]
+Finished Parsing EDIF File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf]
+Release 14.7 - ngc2edif P_INT.20170511 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design xillybus_core.ngc ...
+WARNING:NetListWriters:298 - No output is written to xillybus_core.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   pcie_k7_request_ins/tlp_dissect/header1[15 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_k7_request_ins/tlp_dissect/header2[10 : 2] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_k7_request_ins/tlp_dissect/header0[30 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Max_Payload_Size_w[12 : 2] on block
+   xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus rd_arbiter_ins/recvbuf_channel[4 : 0] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus messages_ins/msg_buf_real_word[26 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus bar_registers_ins/dma_bufno_reg[31 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus bar_registers_ins/buf_ctrl_reg[26 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_k7_request_ins/tlp_compose/header1[31 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_k7_request_ins/tlp_compose/header0[30 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus wr_arbiter_ins/wr_arb_roundrobin[2 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   wr_arbiter_ins/wr_arb_roundrobin[2]_wr_arb_roundrobin[2]_select_88_OUT[2 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus messages_ins/Madd_n0482_Madd_cy[2 : 0]
+   on block xillybus_core is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   messages_ins/Mmux_msg_vacant_entries[3]_BUS_0004_mux_43_OUT_rs_A[3 : 0] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   messages_ins/msgbuf_read_data[31]_msgbuf_read_data[31]_mux_24_OUT[31 : 22] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   messages_ins/msg_buf_w1[31]_msg_buf_w0[31]_mux_50_OUT[26 : 0] on block
+   xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   messages_ins/GND_5_o_GND_5_o_mux_80_OUT[26 : 0] on block xillybus_core is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus messages_ins/msg_buf_w0[26 : 0] on block
+   xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_recv_dma_ins/GND_16_o_rd_byte_offset_d[6 : 4] on block xillybus_core is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pcie_recv_dma_ins/rd_byte_offset_d[7]_rd_format[1]_mux_181_OUT[7 : 4] on
+   block xillybus_core is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus pcie_recv_dma_ins/rd_byte_offset_d[7 :
+   4] on block xillybus_core is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file xillybus_core.edif ...
+ngc2edif: Total memory usage is 97504 kilobytes
+
+Reading core file 'G:/fei/chester0536/kc705/fpga/HDL/xillybus/core/xillybus_core.ngc' for (cell view 'xillybus_core', library 'work')
+Parsing EDIF File [./.ngc2edfcache/xillybus_core_ngc_2357617f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/xillybus_core_ngc_2357617f.edif]
+INFO: [Netlist 29-17] Analyzing 5324 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20170511
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'CPS_ReadOut/CNV' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf:34615]
+INFO: [Opt 31-138] Pushed 16 inverter(s) to 16 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3627 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 232 instances
+  FD => FDRE: 210 instances
+  FDE => FDRE: 2076 instances
+  FDR => FDRE: 282 instances
+  FDS => FDSE: 12 instances
+  FD_1 => FDRE (inverted pins: C): 512 instances
+  INV => LUT1: 174 instances
+  LD => LDCE: 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 19 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 16 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 58 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+444 Infos, 308 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:01:48 . Memory (MB): peak = 838.230 ; gain = 538.754
+INFO: [Common 17-1381] The checkpoint 'G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/kc705.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 838.230 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 18 15:41:18 2018...

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521359606">
+  <File Type="PLACE-DCP" Name="kc705_placed.dcp"/>
+  <File Type="PA-DCP" Name="kc705.dcp"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="kc705_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="kc705_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="kc705_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="kc705.tcl"/>
+  <File Type="OPT-HWDEF" Name="kc705.hwdef"/>
+  <File Type="RDI-RDI" Name="kc705.vdi"/>
+  <File Type="OPT-DCP" Name="kc705_opt.dcp"/>
+  <File Type="OPT-DRC" Name="kc705_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="kc705_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="kc705_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="kc705_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="kc705_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="kc705_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="kc705_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="kc705_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="kc705_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="kc705_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="kc705_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="kc705_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="kc705_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="kc705_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="kc705_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="kc705_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="kc705_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="kc705_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="kc705_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="kc705_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="kc705_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="kc705_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="kc705_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="kc705.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="kc705_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="kc705.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="kc705_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="kc705.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="kc705_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="kc705.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="kc705_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="kc705_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="kc705_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="kc705_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="kc705_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="kc705_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="kc705_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="kc705_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="kc705_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="kc705_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="kc705_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="kc705_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="kc705_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="kc705_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="kc705_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="kc705.bit"/>
+  <File Type="BITSTR-RBT" Name="kc705.rbt"/>
+  <File Type="BITSTR-NKY" Name="kc705.nky"/>
+  <File Type="BITSTR-BMM" Name="kc705_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="kc705.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="kc705.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/kc705.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/d_ff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/data_selector.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/delay_ff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/gen_simple_data.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/gen_user_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/gen_user_command.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/rec_sample_data.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/recieve_adc_packet.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/regen_ctrl_sig.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/set_chip_addr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/set_data.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/state_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/adc/CPS_ReadOut_TOP.edf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/adc/CPS_ReadOut_TOP_stub.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/verilog/src/xillydemo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/verilog/src/xillybus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/verilog/src/xillybus_core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/vivado-essentials/pcie_k7_8x.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/vivado-essentials/pcie_k7_8x_pipe_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/xillybus/vivado-essentials/pcie_k7_vivado_pipe_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/user_module/tlu_handshake.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="kc705"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/HDL/xillybus/vivado-essentials/xillydemo.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/HDL/adc/CPS_ReadOut_TOP.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/kc705.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/kc705.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design" EnableStepBool="1"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_clk_crossing_fifo32"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_8x2048"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_mem8_chipaddr"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_sysclk"/>
+  <BlockFileSet Type="BlockSrcs" Name="pcie_k7_vivado"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_clk2M_crossing_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_buffer_mem16"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_user_mem8"/>
+</GenRun>

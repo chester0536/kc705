@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="coregen_mem8_chipaddr_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521357604">
+  <File Type="RDS-PROPCONSTRS" Name="coregen_mem8_chipaddr_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="coregen_mem8_chipaddr.tcl"/>
+  <File Type="RDS-RDS" Name="coregen_mem8_chipaddr.vds"/>
+  <File Type="RDS-UTIL" Name="coregen_mem8_chipaddr_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="coregen_mem8_chipaddr_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="coregen_mem8_chipaddr.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="coregen_mem8_chipaddr_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="coregen_mem8_chipaddr_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/coregen_mem8_chipaddr">
+    <File Path="$PPRDIR/IP_Core/mem3/coregen_mem8_chipaddr.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="coregen_mem8_chipaddr"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/coregen_mem8_chipaddr">
+    <File Path="$PPRDIR/IP_Core/mem3/coregen_mem8_chipaddr.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="coregen_mem8_chipaddr"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 16:38:04 2018
+# Process ID: 2344
+# Current directory: G:/fei/chester0536/kc705/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6096 G:\fei\chester0536\kc705\fpga\kc705.xpr
+# Log file: G:/fei/chester0536/kc705/fpga/vivado.log
+# Journal file: G:/fei/chester0536/kc705/fpga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/fei/chester0536/kc705/fpga/kc705.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/xilinx2017.2/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:08 . Memory (MB): peak = 950.883 ; gain = 190.086

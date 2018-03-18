@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 15:28:43 2018
+# Process ID: 5116
+# Current directory: G:/fei/chester0536/kc705/fpga/kc705.runs/coregen_mem8_chipaddr_synth_1
+# Command line: vivado.exe -log coregen_mem8_chipaddr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source coregen_mem8_chipaddr.tcl
+# Log file: G:/fei/chester0536/kc705/fpga/kc705.runs/coregen_mem8_chipaddr_synth_1/coregen_mem8_chipaddr.vds
+# Journal file: G:/fei/chester0536/kc705/fpga/kc705.runs/coregen_mem8_chipaddr_synth_1\vivado.jou
+#-----------------------------------------------------------
+source coregen_mem8_chipaddr.tcl -notrace

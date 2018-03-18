@@ -1,0 +1,143 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 18 15:22:46 2018
+# Process ID: 7164
+# Current directory: G:/fei/chester0536/kc705/fpga/kc705.runs/pcie_k7_vivado_synth_1
+# Command line: vivado.exe -log pcie_k7_vivado.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pcie_k7_vivado.tcl
+# Log file: G:/fei/chester0536/kc705/fpga/kc705.runs/pcie_k7_vivado_synth_1/pcie_k7_vivado.vds
+# Journal file: G:/fei/chester0536/kc705/fpga/kc705.runs/pcie_k7_vivado_synth_1\vivado.jou
+#-----------------------------------------------------------
+source pcie_k7_vivado.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.180 ; gain = 87.496
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/synth/pcie_k7_vivado.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie2_top' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie2_top.v:59]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_core_top' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_core_top.v:65]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (1#1) [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_top' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_top' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx_pipeline' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx_pipeline' (2#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx_null_gen' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx_null_gen' (3#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx' (4#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx_thrtl_ctl' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx_thrtl_ctl' (5#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx_pipeline' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx_pipeline' (6#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx' (7#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx.v:70]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_top' (8#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_7x' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_bram_top_7x' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_brams_7x' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_brams_7x.v:65]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_bram_7x' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'BRAM_TDP_MACRO' [F:/xilinx2017.2/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E1' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E1' (9#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'BRAM_TDP_MACRO' (10#1) [F:/xilinx2017.2/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_bram_7x' (11#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_7x.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_brams_7x' (12#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_brams_7x.v:65]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_bram_top_7x' (13#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'PCIE_2_1' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'PCIE_2_1' (14#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_7x' (15#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_pipeline' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_lane' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_lane.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_lane' (16#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_lane.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_misc' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_misc' (17#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_pipeline' (18#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_top' (19#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_top' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_rx_valid_filter_7x' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_rx_valid_filter_7x' (20#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_wrapper' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_wrapper.v:156]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_reset' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_reset.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_reset' (21#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_reset.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_reset' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_reset.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_reset' (22#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_reset.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_rate' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_rate.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_rate' (23#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_rate.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_drp' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_drp.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_drp' (24#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_drp.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_eq' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_rxeq_scan' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_rxeq_scan' (25#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_eq' (26#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_common' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_drp' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_drp.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_drp' (27#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_drp.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_wrapper' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_COMMON' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:11315]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_COMMON' (28#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:11315]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gtp_cpllpd_ovrd' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gtp_cpllpd_ovrd' (29#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_wrapper' (30#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_qpll_wrapper.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_common' (31#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_user' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_user.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_user' (32#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_user.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_sync' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_sync' (33#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_wrapper' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_CHANNEL' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_CHANNEL' (34#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gtx_cpllpd_ovrd' [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gtx_cpllpd_ovrd' (35#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_wrapper' (36#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (37#1) [F:/xilinx2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_wrapper' (38#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pipe_wrapper.v:156]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_top' (39#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_gt_top.v:62]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_core_top' (40#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_core_top.v:65]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie2_top' (41#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado_pcie2_top.v:59]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado' (42#1) [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/synth/pcie_k7_vivado.v:66]
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 467.332 ; gain = 165.648
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 467.332 ; gain = 165.648
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.223 . Memory (MB): peak = 834.031 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 834.031 ; gain = 532.348
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 834.031 ; gain = 532.348
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 834.031 ; gain = 532.348
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 834.031 ; gain = 532.348
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 834.031 ; gain = 532.348
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:22 . Memory (MB): peak = 896.254 ; gain = 594.570
+Finished Timing Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:26 . Memory (MB): peak = 936.457 ; gain = 634.773
+Finished Technology Mapping : Time (s): cpu = 00:01:27 ; elapsed = 00:01:34 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished IO Insertion : Time (s): cpu = 00:01:29 ; elapsed = 00:01:36 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:29 ; elapsed = 00:01:36 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:01:39 . Memory (MB): peak = 964.359 ; gain = 662.676
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:39 . Memory (MB): peak = 964.359 ; gain = 662.676
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     1|
+|2     |CARRY4        |   102|
+|3     |GTXE2_CHANNEL |     8|
+|4     |GTXE2_COMMON  |     2|
+|5     |LUT1          |   406|
+|6     |LUT2          |   437|
+|7     |LUT3          |   630|
+|8     |LUT4          |   402|
+|9     |LUT5          |  1162|
+|10    |LUT6          |  1133|
+|11    |MUXF7         |   112|
+|12    |MUXF8         |     8|
+|13    |PCIE_2_1      |     1|
+|14    |RAMB36E1      |     8|
+|15    |SRL16E        |     6|
+|16    |SRLC32E       |    56|
+|17    |FDCE          |     9|
+|18    |FDPE          |     2|
+|19    |FDRE          |  5548|
+|20    |FDSE          |   160|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:39 . Memory (MB): peak = 964.359 ; gain = 662.676
+synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:53 . Memory (MB): peak = 1435.094 ; gain = 1141.629
