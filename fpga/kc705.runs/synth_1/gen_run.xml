@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521439174">
   <File Type="RDS-PROPCONSTRS" Name="kc705_drc_synth.rpt"/>
+=======
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521427730">
+>>>>>>> d884b1058d9dcfaa0007feaa895ff3ab8fa9cead
   <File Type="PA-TCL" Name="kc705.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="kc705_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="kc705.vds"/>
   <File Type="RDS-UTIL" Name="kc705_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="kc705_utilization_synth.pb"/>
@@ -197,12 +202,12 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="coregen_clk_crossing_fifo32"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_8x2048"/>
-  <BlockFileSet Type="BlockSrcs" Name="coregen_mem8_chipaddr"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_clk_crossing_fifo32"/>
   <BlockFileSet Type="BlockSrcs" Name="coregen_sysclk"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_mem8_chipaddr"/>
   <BlockFileSet Type="BlockSrcs" Name="pcie_k7_vivado"/>
-  <BlockFileSet Type="BlockSrcs" Name="coregen_clk2M_crossing_fifo"/>
-  <BlockFileSet Type="BlockSrcs" Name="coregen_buffer_mem16"/>
   <BlockFileSet Type="BlockSrcs" Name="coregen_user_mem8"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_buffer_mem16"/>
+  <BlockFileSet Type="BlockSrcs" Name="coregen_clk2M_crossing_fifo"/>
 </GenRun>
