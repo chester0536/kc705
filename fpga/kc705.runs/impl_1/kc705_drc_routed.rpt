@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Mar 19 11:31:54 2018
+| Date         : Mon Mar 19 14:13:25 2018
 | Host         : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_drc -file kc705_drc_routed.rpt -pb kc705_drc_routed.pb -rpx kc705_drc_routed.rpx
 | Design       : kc705
@@ -102,9 +102,9 @@ Non-Optimal connections which could lead to hold violations
 A LUT CPS_ReadOut/deserializer1_i_1 is driving clock pin of 768 cells. This could lead to large hold time violations. First few involved cells are:
     CPS_ReadOut/deserializer1/bit_index_reg[26] {FDCE}
     CPS_ReadOut/deserializer1/bit_index_reg[20] {FDCE}
-    CPS_ReadOut/deserializer1/bit_index_reg[25] {FDCE}
-    CPS_ReadOut/deserializer1/bit_index_reg[23] {FDCE}
-    CPS_ReadOut/deserializer1/bit_index_reg[24] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[12] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[11] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[0] {FDPE}
 
 Related violations: <none>
 

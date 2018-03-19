@@ -47,7 +47,7 @@ module tlu_handshake(
     //Buffers//////////////////////////////////////////
     IBUFDS #(
         .DIFF_TERM("TRUE"),       // Differential Termination
-        .IBUF_LOW_PWR("TRUE"),     // Low power="TRUE", Highest performance="FALSE" 
+        .IBUF_LOW_PWR("FALSE"),     // Low power="TRUE", Highest performance="FALSE" 
         .IOSTANDARD("LVDS_25")     // Specify the input I/O standard
      ) IBUFDS_inst1 (
         .O(trigger),  // Buffer output
@@ -75,7 +75,7 @@ module tlu_handshake(
       
     OBUFDS #(
          .IOSTANDARD("LVDS_25"), // Specify the output I/O standard
-         .SLEW("SLOW")           // Specify the output slew rate
+         .SLEW("FAST")           // Specify the output slew rate
       ) OBUFDS_inst1 (
          .O(BUSY_p),     // Diff_p output (connect directly to top-level port)
          .OB(BUSY_n),   // Diff_n output (connect directly to top-level port)
@@ -84,7 +84,7 @@ module tlu_handshake(
       
     OBUFDS #(
          .IOSTANDARD("LVDS_25"), // Specify the output I/O standard
-         .SLEW("SLOW")           // Specify the output slew rate
+         .SLEW("FAST")           // Specify the output slew rate
       ) OBUFDS_inst2 (
          .O(TRIGGER_CLOCK_p),     // Diff_p output (connect directly to top-level port)
          .OB(TRIGGER_CLOCK_n),   // Diff_n output (connect directly to top-level port)

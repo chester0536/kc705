@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Mar 19 11:33:00 2018
+| Date         : Mon Mar 19 14:14:31 2018
 | Host         : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_timing_summary -warn_on_violation -max_paths 10 -file kc705_timing_summary_postroute_physopted.rpt -rpx kc705_timing_summary_postroute_physopted.rpx
 | Design       : kc705

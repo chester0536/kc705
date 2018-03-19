@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Mar 19 11:32:19 2018
+| Date         : Mon Mar 19 14:13:50 2018
 | Host         : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_methodology -file kc705_methodology_drc_routed.rpt -rpx kc705_methodology_drc_routed.rpx
 | Design       : kc705
@@ -5425,127 +5425,127 @@ Related violations: <none>
 XDCB-5#1 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_CDONE/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '83' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 80)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 80)
 Related violations: <none>
 
 XDCB-5#2 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS0/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '84' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 81)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 81)
 Related violations: <none>
 
 XDCB-5#3 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS1/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '85' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 82)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 82)
 Related violations: <none>
 
 XDCB-5#4 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '70' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 63)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 63)
 Related violations: <none>
 
 XDCB-5#5 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '77' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 74)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 74)
 Related violations: <none>
 
 XDCB-5#6 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '78' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 75)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 75)
 Related violations: <none>
 
 XDCB-5#7 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '79' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 76)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 76)
 Related violations: <none>
 
 XDCB-5#8 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '80' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 77)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 77)
 Related violations: <none>
 
 XDCB-5#9 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '67' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 60)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 60)
 Related violations: <none>
 
 XDCB-5#10 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCRST/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '81' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 78)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 78)
 Related violations: <none>
 
 XDCB-5#11 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/u_scnt_cmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '69' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 62)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 62)
 Related violations: <none>
 
 XDCB-5#12 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/u_scnt_cmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '68' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 61)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 61)
 Related violations: <none>
 
 XDCB-5#13 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '82' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 79)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 79)
 Related violations: <none>
 
 XDCB-5#14 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WHCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '75' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 72)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 72)
 Related violations: <none>
 
 XDCB-5#15 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WLCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '76' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 73)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 73)
 Related violations: <none>
 
 XDCB-5#16 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '72' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 69)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 69)
 Related violations: <none>
 
 XDCB-5#17 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '74' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 71)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 71)
 Related violations: <none>
 
 XDCB-5#18 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '71' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 68)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 68)
 Related violations: <none>
 
 XDCB-5#19 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '73' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 70)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 70)
 Related violations: <none>
 
 XDCB-5#20 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '61' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 41)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 41)
 Related violations: <none>
 
 XDCB-5#21 Warning
 Runtime inefficient way to find pin objects  
 The option '-from : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '60' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 40)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 40)
 Related violations: <none>
 
 XDCB-5#22 Warning
@@ -5611,13 +5611,13 @@ Related violations: <none>
 XDCB-5#32 Warning
 Runtime inefficient way to find pin objects  
 The option '-to : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '60' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 40)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 40)
 Related violations: <none>
 
 XDCB-5#33 Warning
 Runtime inefficient way to find pin objects  
 The option '-to : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '61' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
-Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-5336-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 41)
+Current XDC: g:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/.Xil/Vivado-6460-dell-PC/u_ila_0_CV.0/out/ila.xdc (Line: 41)
 Related violations: <none>
 
 

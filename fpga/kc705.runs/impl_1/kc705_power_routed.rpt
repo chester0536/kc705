@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Mon Mar 19 11:32:30 2018
+| Date             : Mon Mar 19 14:14:01 2018
 | Host             : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file kc705_power_routed.rpt -pb kc705_power_summary_routed.pb -rpx kc705_power_routed.rpx
 | Design           : kc705
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 3.138 |
-| Dynamic (W)              | 2.938 |
+| Total On-Chip Power (W)  | 3.139 |
+| Dynamic (W)              | 2.940 |
 | Device Static (W)        | 0.200 |
 | Total Off-Chip Power (W) | 0.005 |
 | Effective TJA (C/W)      | 1.8   |
@@ -63,12 +63,12 @@ Table of Contents
 | Signals                  |     0.070 |    22287 |       --- |             --- |
 | Block RAM                |     0.065 |    135.5 |       445 |           30.45 |
 | MMCM                     |     0.215 |        2 |        10 |           20.00 |
-| I/O                      |     0.257 |       63 |       500 |           12.60 |
+| I/O                      |     0.258 |       63 |       500 |           12.60 |
 | GTX                      |     2.108 |        8 |        16 |           50.00 |
 | Hard IPs                 |     0.045 |        1 |       --- |             --- |
 |   PCIE                   |     0.045 |        1 |         1 |          100.00 |
 | Static Power             |     0.200 |          |           |                 |
-| Total                    |     3.138 |          |           |                 |
+| Total                    |     3.139 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -163,7 +163,7 @@ Table of Contents
 +------------------------------------------------------------------------------------+-----------+
 | Name                                                                               | Power (W) |
 +------------------------------------------------------------------------------------+-----------+
-| kc705                                                                              |     2.938 |
+| kc705                                                                              |     2.940 |
 |   CPS_ReadOut                                                                      |     0.227 |
 |     deserializer1                                                                  |     0.003 |
 |     deserializer10                                                                 |     0.003 |
@@ -633,7 +633,7 @@ Table of Contents
 |   state_control_ins                                                                |    <0.001 |
 |   sysclk_ins_test                                                                  |     0.110 |
 |     inst                                                                           |     0.110 |
-|   tlu_handshake_inst                                                               |     0.083 |
+|   tlu_handshake_inst                                                               |     0.084 |
 |   u_ila_0                                                                          |     0.018 |
 |     inst                                                                           |     0.018 |
 |       ila_core_inst                                                                |     0.018 |
