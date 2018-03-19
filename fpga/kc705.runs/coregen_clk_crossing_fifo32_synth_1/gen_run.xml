@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="coregen_clk_crossing_fifo32_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521358498">
-  <File Type="PA-TCL" Name="coregen_clk_crossing_fifo32.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="coregen_clk_crossing_fifo32_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="coregen_clk_crossing_fifo32.tcl"/>
   <File Type="RDS-RDS" Name="coregen_clk_crossing_fifo32.vds"/>
   <File Type="RDS-UTIL" Name="coregen_clk_crossing_fifo32_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="coregen_clk_crossing_fifo32_utilization_synth.pb"/>

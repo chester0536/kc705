@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Sun Mar 18 17:21:10 2018
+| Date         : Mon Mar 19 11:27:21 2018
 | Host         : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_utilization -file kc705_utilization_placed.rpt -pb kc705_utilization_placed.pb
 | Design       : kc705
@@ -31,8 +31,8 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs                 | 10715 |     0 |    203800 |  5.26 |
-|   LUT as Logic             |  9511 |     0 |    203800 |  4.67 |
+| Slice LUTs                 | 10726 |     0 |    203800 |  5.26 |
+|   LUT as Logic             |  9522 |     0 |    203800 |  4.67 |
 |   LUT as Memory            |  1204 |     0 |     64000 |  1.88 |
 |     LUT as Distributed RAM |   388 |     0 |           |       |
 |     LUT as Shift Register  |   816 |     0 |           |       |
@@ -69,13 +69,13 @@ Table of Contents
 +-------------------------------------------+------+-------+-----------+-------+
 |                 Site Type                 | Used | Fixed | Available | Util% |
 +-------------------------------------------+------+-------+-----------+-------+
-| Slice                                     | 5093 |     0 |     50950 | 10.00 |
-|   SLICEL                                  | 3418 |     0 |           |       |
-|   SLICEM                                  | 1675 |     0 |           |       |
-| LUT as Logic                              | 9511 |     0 |    203800 |  4.67 |
-|   using O5 output only                    |    0 |       |           |       |
-|   using O6 output only                    | 8393 |       |           |       |
-|   using O5 and O6                         | 1118 |       |           |       |
+| Slice                                     | 5083 |     0 |     50950 |  9.98 |
+|   SLICEL                                  | 3357 |     0 |           |       |
+|   SLICEM                                  | 1726 |     0 |           |       |
+| LUT as Logic                              | 9522 |     0 |    203800 |  4.67 |
+|   using O5 output only                    |    3 |       |           |       |
+|   using O6 output only                    | 8412 |       |           |       |
+|   using O5 and O6                         | 1107 |       |           |       |
 | LUT as Memory                             | 1204 |     0 |     64000 |  1.88 |
 |   LUT as Distributed RAM                  |  388 |     0 |           |       |
 |     using O5 output only                  |    8 |       |           |       |
@@ -85,10 +85,10 @@ Table of Contents
 |     using O5 output only                  |  275 |       |           |       |
 |     using O6 output only                  |  356 |       |           |       |
 |     using O5 and O6                       |  185 |       |           |       |
-| LUT Flip Flop Pairs                       | 5947 |     0 |    203800 |  2.92 |
-|   fully used LUT-FF pairs                 |  576 |       |           |       |
-|   LUT-FF pairs with one unused LUT output | 5162 |       |           |       |
-|   LUT-FF pairs with one unused Flip Flop  | 4826 |       |           |       |
+| LUT Flip Flop Pairs                       | 5953 |     0 |    203800 |  2.92 |
+|   fully used LUT-FF pairs                 |  575 |       |           |       |
+|   LUT-FF pairs with one unused LUT output | 5160 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  | 4831 |       |           |       |
 | Unique Control Sets                       |  514 |       |           |       |
 +-------------------------------------------+------+-------+-----------+-------+
 * Note: Review the Control Sets Report for more information regarding control sets.
@@ -125,9 +125,9 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   62 |    62 |       500 | 12.40 |
+| Bonded IOB                  |   63 |    63 |       500 | 12.60 |
 |   IOB Master Pads           |   31 |       |           |       |
-|   IOB Slave Pads            |   29 |       |           |       |
+|   IOB Slave Pads            |   30 |       |           |       |
 | Bonded IPADs                |   18 |    18 |        50 | 36.00 |
 | Bonded OPADs                |   16 |    16 |        32 | 50.00 |
 | PHY_CONTROL                 |    0 |     0 |        10 |  0.00 |
@@ -135,7 +135,7 @@ Table of Contents
 | OUT_FIFO                    |    0 |     0 |        40 |  0.00 |
 | IN_FIFO                     |    0 |     0 |        40 |  0.00 |
 | IDELAYCTRL                  |    0 |     0 |        10 |  0.00 |
-| IBUFDS                      |   18 |    18 |       480 |  3.75 |
+| IBUFDS                      |   19 |    19 |       480 |  3.96 |
 | GTXE2_COMMON                |    2 |     0 |         4 | 50.00 |
 | GTXE2_CHANNEL               |    8 |     8 |        16 | 50.00 |
 | PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |        40 |  0.00 |
@@ -207,9 +207,9 @@ Table of Contents
 | RAMB36E1      |   125 |         Block Memory |
 | RAMS32        |    50 |   Distributed Memory |
 | OBUF          |    30 |                   IO |
-| IBUF          |    22 |                   IO |
 | RAMB18E1      |    21 |         Block Memory |
-| IBUFDS        |    18 |                   IO |
+| IBUF          |    21 |                   IO |
+| IBUFDS        |    19 |                   IO |
 | LDCE          |    16 |         Flop & Latch |
 | BUFG          |    10 |                Clock |
 | MUXF8         |     8 |                MuxFx |
@@ -266,7 +266,6 @@ Table of Contents
 |           Ref Name          | Used |
 +-----------------------------+------+
 | coregen_buffer_mem16        |   18 |
-| xillybus_core               |    1 |
 | u_ila_0_CV                  |    1 |
 | pcie_k7_vivado              |    1 |
 | fifo_8x2048                 |    1 |
@@ -275,7 +274,6 @@ Table of Contents
 | coregen_sysclk              |    1 |
 | coregen_mem8_chipaddr       |    1 |
 | coregen_clk_crossing_fifo32 |    1 |
-| CPS_ReadOut_TOP             |    1 |
 +-----------------------------+------+
 
 

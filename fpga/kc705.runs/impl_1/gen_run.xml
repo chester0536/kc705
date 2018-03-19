@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521364532">
-  <File Type="PLACE-DCP" Name="kc705_placed.dcp"/>
-  <File Type="PA-DCP" Name="kc705.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1521429627">
+  <File Type="PWROPT-DRC" Name="kc705_drc_pwropted.rpt"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="kc705_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="kc705_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="kc705_power_routed.rpx"/>
@@ -12,8 +11,8 @@
   <File Type="OPT-DRC" Name="kc705_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="kc705_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="kc705_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="kc705_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="kc705_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="kc705_placed.dcp"/>
   <File Type="PLACE-IO" Name="kc705_io_placed.rpt"/>
   <File Type="PLACE-CLK" Name="kc705_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="kc705_utilization_placed.rpt"/>

@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Sun Mar 18 17:24:16 2018
+| Date         : Mon Mar 19 11:31:54 2018
 | Host         : dell-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_drc -file kc705_drc_routed.rpt -pb kc705_drc_routed.pb -rpx kc705_drc_routed.rpx
 | Design       : kc705
@@ -20,7 +20,7 @@ Table of Contents
 1. REPORT SUMMARY
 -----------------
             Netlist: netlist
-          Floorplan: checkpoint_kc705
+          Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
@@ -100,22 +100,22 @@ Related violations: <none>
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT CPS_ReadOut/deserializer1_i_1 is driving clock pin of 768 cells. This could lead to large hold time violations. First few involved cells are:
-    CPS_ReadOut/deserializer16/bit_index_reg[0] {FDPE}
-    CPS_ReadOut/deserializer16/bit_index_reg[10] {FDCE}
-    CPS_ReadOut/deserializer16/bit_index_reg[11] {FDCE}
-    CPS_ReadOut/deserializer16/bit_index_reg[12] {FDCE}
-    CPS_ReadOut/deserializer16/bit_index_reg[13] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[26] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[20] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[25] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[23] {FDCE}
+    CPS_ReadOut/deserializer1/bit_index_reg[24] {FDCE}
 
 Related violations: <none>
 
 PLHOLDVIO-2#2 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT rec_adc_packet_ins/regen_ctrl_sig/CNVCLK_OUT_INST_0 is driving clock pin of 544 cells. This could lead to large hold time violations. First few involved cells are:
-    rec_adc_packet_ins/adc_data_inst4/dff_data_cnvclk_reg[0] {FDRE}
-    rec_adc_packet_ins/adc_data_inst4/dff_data_cnvclk_reg[10] {FDRE}
-    rec_adc_packet_ins/adc_data_inst4/dff_data_cnvclk_reg[11] {FDRE}
-    rec_adc_packet_ins/adc_data_inst4/dff_data_cnvclk_reg[12] {FDRE}
-    rec_adc_packet_ins/adc_data_inst4/dff_data_cnvclk_reg[13] {FDRE}
+    rec_adc_packet_ins/adc_data_inst1/dff_data_cnvclk_reg[6] {FDRE}
+    rec_adc_packet_ins/adc_data_inst1/dff_data_cnvclk_reg[5] {FDRE}
+    rec_adc_packet_ins/adc_data_inst1/dff_data_cnvclk_reg[4] {FDRE}
+    rec_adc_packet_ins/adc_data_inst1/dff_data_cnvclk_reg[3] {FDRE}
+    rec_adc_packet_ins/adc_data_inst1/dff_data_cnvclk_reg[2] {FDRE}
 
 Related violations: <none>
 
@@ -221,7 +221,7 @@ Related violations: <none>
 
 RTSTAT-10#1 Warning
 No routable loads  
-35 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, set_chip_addr_ins/chip_address_out_dff[4], set_chip_addr_ins/chip_address_out_dff[5], set_chip_addr_ins/chip_address_out_dff[6], set_chip_addr_ins/chip_address_out_dff[7], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_flags[7:0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i (the first 15 of 26 listed).
+35 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, set_chip_addr_ins/chip_address_out_dff[4], set_chip_addr_ins/chip_address_out_dff[5], set_chip_addr_ins/chip_address_out_dff[6], set_chip_addr_ins/chip_address_out_dff[7], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_flags[7:0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i (the first 15 of 26 listed).
 Related violations: <none>
 
 

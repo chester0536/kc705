@@ -23,9 +23,9 @@
 module tlu_handshake(
     input CLK,         //the practical maximum frequency of Trigger-Clock would be in region of 10MHz
     input RST_SYS,         //reset, active high
-//    input TRIGGER_p,   //differential Trigger inputs
-//    input TRIGGER_n,
-    input TRIGGER_TTL,   //LVTTL TRIGGER INPUT
+    input TRIGGER_p,   //differential Trigger inputs
+    input TRIGGER_n,
+//    input TRIGGER_TTL,   //LVTTL TRIGGER INPUT
 //    input RESET_p,     //differential Reset inputs. NOT used.
 //    input RESET_n,
     output BUSY_p,     //differential Busy outputs
@@ -45,23 +45,23 @@ module tlu_handshake(
     reg [4:0] cnt_16;
     
     //Buffers//////////////////////////////////////////
-//    IBUFDS #(
-//        .DIFF_TERM("FALSE"),       // Differential Termination
-//        .IBUF_LOW_PWR("FALSE"),     // Low power="TRUE", Highest performance="FALSE" 
-//        .IOSTANDARD("DIFF_HSTL_II_DCI_18")     // Specify the input I/O standard
-//     ) IBUFDS_inst1 (
-//        .O(trigger),  // Buffer output
-//        .I(TRIGGER_p),  // Diff_p buffer input (connect directly to top-level port)
-//        .IB(TRIGGER_n) // Diff_n buffer input (connect directly to top-level port)
-//     );
+    IBUFDS #(
+        .DIFF_TERM("TRUE"),       // Differential Termination
+        .IBUF_LOW_PWR("TRUE"),     // Low power="TRUE", Highest performance="FALSE" 
+        .IOSTANDARD("LVDS_25")     // Specify the input I/O standard
+     ) IBUFDS_inst1 (
+        .O(trigger),  // Buffer output
+        .I(TRIGGER_p),  // Diff_p buffer input (connect directly to top-level port)
+        .IB(TRIGGER_n) // Diff_n buffer input (connect directly to top-level port)
+     );
 
-    IBUF #(
-        .IBUF_LOW_PWR("TRUE"),  // Low power (TRUE) vs. performance (FALSE) setting for referenced I/O standards 
-        .IOSTANDARD("LVTTL")  // Specify the input I/O standard
-    ) IBUF_inst (
-        .O(trigger),     // Buffer output
-        .I(TRIGGER_TTL)      // Buffer input (connect directly to top-level port)
-    ); 
+//    IBUF #(
+//        .IBUF_LOW_PWR("TRUE"),  // Low power (TRUE) vs. performance (FALSE) setting for referenced I/O standards 
+//        .IOSTANDARD("LVTTL")  // Specify the input I/O standard
+//    ) IBUF_inst (
+//        .O(trigger),     // Buffer output
+//        .I(TRIGGER_TTL)      // Buffer input (connect directly to top-level port)
+//    ); 
     
 //    IBUFDS #(
 //         .DIFF_TERM("TRUE"),       // Differential Termination
@@ -75,7 +75,7 @@ module tlu_handshake(
       
     OBUFDS #(
          .IOSTANDARD("LVDS_25"), // Specify the output I/O standard
-         .SLEW("FAST")           // Specify the output slew rate
+         .SLEW("SLOW")           // Specify the output slew rate
       ) OBUFDS_inst1 (
          .O(BUSY_p),     // Diff_p output (connect directly to top-level port)
          .OB(BUSY_n),   // Diff_n output (connect directly to top-level port)
@@ -84,7 +84,7 @@ module tlu_handshake(
       
     OBUFDS #(
          .IOSTANDARD("LVDS_25"), // Specify the output I/O standard
-         .SLEW("FAST")           // Specify the output slew rate
+         .SLEW("SLOW")           // Specify the output slew rate
       ) OBUFDS_inst2 (
          .O(TRIGGER_CLOCK_p),     // Diff_p output (connect directly to top-level port)
          .OB(TRIGGER_CLOCK_n),   // Diff_n output (connect directly to top-level port)

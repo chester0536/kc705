@@ -10,3 +10,1179 @@
 # Journal file: G:/fei/chester0536/kc705/fpga\vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project G:/fei/chester0536/kc705/fpga/kc705.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/xilinx2017.2/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 958.320 ; gain = 192.055
+reset_run synth_1
+launch_runs synth_1
+[Sun Mar 18 17:44:31 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k325tffg900-2
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.dcp' for cell 'clk_crossing_fifo32_ins'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp' for cell 'fifo_8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.dcp' for cell 'sysclk_ins_test'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem1/coregen_user_mem8.dcp' for cell 'user_mem8_inst'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem2/coregen_buffer_mem16.dcp' for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem3/coregen_mem8_chipaddr.dcp' for cell 'set_chip_addr_ins/clk_crossing_mem8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp' for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+INFO: [Netlist 29-17] Analyzing 910 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'CPS_ReadOut/CNV' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf:34615]
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo.xdc will not be read for any cell of this module.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1278.801 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1278.801 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1278.801 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1278.801 ; gain = 0.000
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+WARNING: [Vivado 12-584] No ports matched 'TRIGGER_TTL'. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+INFO: [Timing 38-2] Deriving generated clocks [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+get_clocks: Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 1833.117 ; gain = 551.492
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo_clocks.xdc will not be read for any cell of this module.
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 113 instances were transformed.
+  OBUFDS => OBUFDS: 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 19 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 16 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 58 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+open_run: Time (s): cpu = 00:01:20 ; elapsed = 00:01:08 . Memory (MB): peak = 1870.918 ; gain = 903.066
+place_ports TRIGGER_p AE23
+save_constraints
+save_constraints: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1921.777 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.181 . Memory (MB): peak = 1921.777 ; gain = 0.000
+[Sun Mar 18 17:49:34 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 1921.777 ; gain = 0.000
+set_property IOSTANDARD LVDS_25 [get_ports [list TRIGGER_p]]
+save_constraints
+save_constraints: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1921.777 ; gain = 0.000
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1921.777 ; gain = 0.000
+[Sun Mar 18 17:56:20 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1921.777 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+[Sun Mar 18 17:56:39 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 17:59:20 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 18:08:37 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 18:14:46 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2245.359 ; gain = 0.641
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 18:27:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 18:27:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 18:27:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 18:27:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 18:28:48 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Sun Mar 18 18:28:48 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 19:03:26 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 19:05:31 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.dcp' for cell 'clk_crossing_fifo32_ins'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp' for cell 'fifo_8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.dcp' for cell 'sysclk_ins_test'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem1/coregen_user_mem8.dcp' for cell 'user_mem8_inst'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem2/coregen_buffer_mem16.dcp' for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem3/coregen_mem8_chipaddr.dcp' for cell 'set_chip_addr_ins/clk_crossing_mem8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp' for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+INFO: [Netlist 29-17] Analyzing 910 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'CPS_ReadOut/CNV' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf:34615]
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo.xdc will not be read for any cell of this module.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+get_pins: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2258.813 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2258.813 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.813 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2258.813 ; gain = 0.000
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+WARNING: [Vivado 12-584] No ports matched 'TRIGGER_TTL'. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+INFO: [Timing 38-2] Deriving generated clocks [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo_clocks.xdc will not be read for any cell of this module.
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:01:04 ; elapsed = 00:00:50 . Memory (MB): peak = 2307.715 ; gain = 56.145
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:09:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:09:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:10:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:10:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:10:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:10:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:10:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:10:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:11:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:11:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:11:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:11:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:12:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:12:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bF [get_hw_probes tlu_handshake_inst/trigger -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:12:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:12:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes tlu_handshake_inst/trigger -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:12:31
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:12:31
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2313.555 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:20:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:20:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs synth_1
+[Sun Mar 18 19:23:41 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Sun Mar 18 19:31:34 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:32:30
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:32:30
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:33:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:33:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k325tffg900-2
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.dcp' for cell 'clk_crossing_fifo32_ins'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.dcp' for cell 'fifo_8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.dcp' for cell 'sysclk_ins_test'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem1/coregen_user_mem8.dcp' for cell 'user_mem8_inst'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem2/coregen_buffer_mem16.dcp' for cell 'rec_adc_packet_ins/buffer_mem16_inst0'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/IP_Core/mem3/coregen_mem8_chipaddr.dcp' for cell 'set_chip_addr_ins/clk_crossing_mem8'
+INFO: [Project 1-454] Reading design checkpoint 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp' for cell 'xillybus_ins/pcie/pcie_k7_vivado'
+INFO: [Netlist 29-17] Analyzing 910 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'CPS_ReadOut/CNV' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.edf:34615]
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/fifo_8x2048/fifo_8x2048.xdc] for cell 'fifo_8/U0'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk_board.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/clk1/coregen_sysclk.xdc] for cell 'sysclk_ins_test/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/source/pcie_k7_vivado-PCIE_X0Y0.xdc] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo.xdc will not be read for any cell of this module.
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2320.148 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2320.148 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2320.148 ; gain = 0.000
+get_pins: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2320.148 ; gain = 0.000
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/xillydemo.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/HDL/adc/CPS_ReadOut_TOP.xdc]
+Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+WARNING: [Vivado 12-584] No ports matched 'TRIGGER_TTL'. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [G:/fei/chester0536/kc705/fpga/kc705.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [G:/fei/chester0536/kc705/fpga/kc705.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'g:/fei/chester0536/kc705/fpga/HDL/xillybus/vivado-essentials/pcie_k7_vivado/pcie_k7_vivado.dcp'
+Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+INFO: [Timing 38-2] Deriving generated clocks [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc:53]
+Finished Parsing XDC File [g:/fei/chester0536/kc705/fpga/IP_Core/fifo1/coregen_clk_crossing_fifo32_clocks.xdc] for cell 'clk_crossing_fifo32_ins/U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'coregen_clk2M_crossing_fifo'. The XDC file g:/fei/chester0536/kc705/fpga/IP_Core/fifo2/coregen_clk2M_crossing_fifo_clocks.xdc will not be read for any cell of this module.
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/phy_lnk_up_cdc'
+Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+Finished Sourcing Tcl File [F:/xilinx2017.2/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'xillybus_ins/pcie/pcie_k7_vivado/inst/inst/pl_received_hot_rst_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 113 instances were transformed.
+  OBUFDS => OBUFDS: 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 19 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 16 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 58 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+open_run: Time (s): cpu = 00:00:54 ; elapsed = 00:00:48 . Memory (MB): peak = 2333.410 ; gain = 13.262
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.193 . Memory (MB): peak = 2333.410 ; gain = 0.000
+[Sun Mar 18 19:44:17 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2333.410 ; gain = 0.000
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2333.410 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:57:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:57:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:59:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:59:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:59:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:59:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 19:59:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 19:59:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:00:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:00:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:00:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:00:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:02:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:02:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:05:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:05:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:05:17
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:05:17
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:05:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:05:29
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:05:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:05:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:05:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:05:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:06:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:06:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:07:29
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:07:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:07:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:07:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:07:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:08:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:08:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:08:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:08:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:08:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:08:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:08:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:08:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:08:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:09:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:09:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:09:17
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:09:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:09:30
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:09:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:09:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:09:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:09:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:10:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:10:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:10:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:10:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:10:31
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2347.551 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7k325t_0 and the probes file(s) G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2347.551 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:30:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:30:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:30:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:31:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:31:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:31:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 20:32:59 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Sun Mar 18 20:32:59 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Mar 18 20:34:06 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Sun Mar 18 20:34:06 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2347.859 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:51:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:51:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 20:51:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 20:51:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:16:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:16:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7k325t_0 and the probes file(s) G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2353.332 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:19:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:19:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:23:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:23:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:24:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:24:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:25:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:25:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:25:38
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:25:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:25:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:25:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:25:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:25:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:26:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:26:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:26:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:26:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:26:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:26:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:27:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:27:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:27:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:27:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:27:11
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:27:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2358.355 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:29:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:29:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:29:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:29:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:31:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:31:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:31:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:31:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:31:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:32:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:34:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:34:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:34:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:34:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2366.051 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:35:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:35:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:35:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:35:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-18 21:35:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-18 21:35:34
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A01BA9A
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7k325t_0 and the probes file(s) G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2366.051 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:21:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:21:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:21:36
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:21:36
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:21:42
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:21:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2368.363 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:21:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:21:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:22:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:22:17
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:22:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:22:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:22:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:22:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2368.516 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:23:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:23:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:23:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:23:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 09:23:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 09:23:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Mon Mar 19 09:31:27 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar 19 09:31:55 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Mon Mar 19 09:31:55 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2368.516 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:31:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:31:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:31:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:31:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:31:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:31:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2375.578 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:33:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:33:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:33:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:33:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:33:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:33:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:33:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:33:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:34:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:34:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:34:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:34:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:34:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:34:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:34:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:34:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:34:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:34:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:35:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:35:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:36:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:36:17
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:36:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:36:29
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:36:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:36:41
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:37:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:37:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar 19 10:40:06 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Mon Mar 19 10:40:06 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:41:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:41:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:42:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:42:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:42:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:42:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:42:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:42:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:44:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:44:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 10:48:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 10:48:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar 19 10:48:50 2018] Launched synth_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/synth_1/runme.log
+[Mon Mar 19 10:48:50 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:01:31
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:01:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar 19 11:02:24 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar 19 11:20:27 2018] Launched impl_1...
+Run output will be captured here: G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/runme.log
+set_property PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {G:/fei/chester0536/kc705/fpga/kc705.runs/impl_1/kc705.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2385.461 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:35:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:35:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:35:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:36:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:36:11
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:36:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:36:29
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:36:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Mar-19 11:40:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 11:40:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 19 11:40:55 2018...
