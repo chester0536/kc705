@@ -206,3 +206,7 @@ wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CEL
 display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
 INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Mar-19 14:24:43
 INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/fei/chester0536/kc705/fpga/kc705.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/fei/chester0536/kc705/fpga/kc705.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 19 14:25:43 2018...
